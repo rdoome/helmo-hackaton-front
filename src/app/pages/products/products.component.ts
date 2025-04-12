@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { PRODUCT_CATEGORIES } from '../../constants/product-item-type.constant';
 import { CommonModule } from '@angular/common';
 import { CardComponent } from '../../components/card/card.component';
+import {CARDIGAN_COLLECTION} from '../../constants/products/cardigan.constant';
 
 @Component({
   selector: 'app-products',
@@ -18,12 +19,13 @@ export class ProductsComponent implements OnInit {
 
   constructor(private route: ActivatedRoute) {}
 
+
   products = [
     {
-      imageUrl: 'images/card-item1.jpg',   
+      imageUrl: 'images/card-item1.jpg',
       category: 'shoes',
       title: 'Sneakers',
-    },  
+    },
     {
       imageUrl: 'images/card-item2.jpg',
       category: 'clothes',
@@ -77,4 +79,6 @@ export class ProductsComponent implements OnInit {
   setActive(item: string): void {
     this.activeItem = item;
   }
+
+  protected readonly CARDIGAN_COLLECTION = CARDIGAN_COLLECTION;
 }

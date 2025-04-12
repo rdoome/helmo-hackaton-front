@@ -4,15 +4,15 @@
     <div class="subitems-horizontal-container mt-3">
       <div class="subitems-flex">
           <!-- Option "All" en première position -->
-          <div 
-            class="subitem" 
-            [class.selected]="activeItem === 'All'" 
+          <div
+            class="subitem"
+            [class.selected]="activeItem === 'All'"
             (click)="setActive('All')">
             All
           </div>
           <!-- Parcours de tous les sous-items -->
-          <div 
-            class="subitem" 
+          <div
+            class="subitem"
             *ngFor="let subtype of subtypes"
             [class.selected]="activeItem === subtype.name"
             (click)="setActive(subtype.name)">
@@ -22,17 +22,16 @@
     </div>
 
 
-    <ul class="product-grid list-unstyled mt-5 pt-3">
-      <li *ngFor="let product of products">
-        <app-card
-          [imageUrl]="product.imageUrl"
-          [category]="product.category"
-          [title]="product.title"
-        ></app-card>
-      </li>
-    </ul>
-      
-      
+      <ul class="product-grid list-unstyled mt-5 pt-3">
+        <li *ngFor="let product of CARDIGAN_COLLECTION">
+          <app-card
+            [imageUrl]="'/images/products/' + product.image_name"
+            [category]="product.category"
+            [title]="product.name"
+          ></app-card>
+        </li>
+      </ul>
+
+
 </section>
 
-  
