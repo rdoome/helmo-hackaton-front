@@ -5,5 +5,6 @@ export interface Product {
   price: number,
   category: string,
   sub_category: string,
+  color: string,
   description: string
 }
