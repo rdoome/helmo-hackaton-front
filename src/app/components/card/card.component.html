@@ -5,15 +5,15 @@
       class="card-image card-img-top object-fit-cover hover-effect" 
     />
   
-    <div class="pt-3">
-      <div class="bg-purple-100 w-fit px-2 rounded-md">
-        <span class="text-xs uppercase text-purple-500">{{ category() }}</span>
-      </div>
+    <div class="pt-3 d-flex justify-content-between align-items-center">
+      <div>
+        <div class="bg-purple-100 w-fit px-2 rounded-md">
+          <span class="text-xs uppercase text-purple-500">{{ category() }}</span>
+        </div>
   
-      <h3 class="mt-2 h-12 line-clamp-2">{{ title() }}</h3>
-  
-      <div class="mt-4 w-full bg-gray-200 rounded-full h-1">
-        <div class="bg-indigo-500 h-full rounded-full" [style.width.%]="70"></div>
+        <h3 class="mt-2 h-12 line-clamp-2">{{ title() }}</h3>
       </div>
     </div>
+
+
   </div>
