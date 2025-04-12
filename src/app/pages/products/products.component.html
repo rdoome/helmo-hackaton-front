@@ -25,6 +25,7 @@
       <ul class="product-grid list-unstyled mt-5 pt-3">
         <li *ngFor="let product of CARDIGAN_COLLECTION">
           <app-card
+            [id]="product.id"
             [imageUrl]="'/images/products/' + product.image_name"
             [category]="product.category"
             [title]="product.name"

@@ -19,6 +19,8 @@
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/router": "^19.2.0",
     "@datorama/akita": "^8.0.1",
+    "@datorama/akita-ng-effects": "^1.0.6",
+    "@datorama/akita-ng-router-store": "^8.0.0",
     "@fortawesome/angular-fontawesome": "^1.0.0",
     "@fortawesome/fontawesome-free-regular": "^5.0.13",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
@@ -30,7 +32,7 @@
     "jquery": "^3.7.1",
     "rxjs": "~7.8.0",
     "swiper": "^11.2.6",
-    "tslib": "^2.3.0",
+    "tslib": "2.4.1",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
@@ -38,6 +40,7 @@
     "@angular/cli": "^19.2.3",
     "@angular/compiler-cli": "^19.2.0",
     "@angular/localize": "^19.2.0",
+    "@datorama/akita-cli": "^6.1.1",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.6.0",
     "karma": "~6.4.0",

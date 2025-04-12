@@ -37,4 +37,75 @@
     line-height: 1;
     cursor: pointer;
   }
+
+  .cart-sidebar {
+    /* Your existing sidebar styles and additional scrolling */
+    overflow-y: auto;
+    padding: 1rem;
+  }
+  
+  .cart-divider {
+    border: 0;
+    border-top: 1px solid #ccc; /* grey horizontal line */
+    margin: 10px 0;
+  }
+
+  .cart-content {
+    padding: 1rem;
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    /* For Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: rgba(109, 109, 109, 0.3) transparent;
+  }
+  
+  /* For Webkit-based browsers (Chrome, Safari, Edge, etc.) */
+  .cart-content::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .cart-content::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .cart-content::-webkit-scrollbar-thumb {
+    background-color: rgba(233, 233, 233, 0.3);
+    border-radius: 0px;
+    border: 1px solid transparent;
+  }
+
+  .cart-footer {
+    padding: 1rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .clear-cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.5rem;
+    background: white;
+    border: 2px solid red;
+    border-radius: 0.5rem;
+    color: rgb(218, 107, 107);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .clear-cart-btn:hover {
+    background: #ffe6e6;
+  }
+  
+  .clear-cart-icon {
+    /* Optional: adjust icon size if needed */
+    font-size: 1.2rem;
+    margin-right: 5px;
+  }
+  
   
