@@ -2,7 +2,7 @@
     <h2 class="text-secondary">{{ gender | titlecase }} - {{ itemType | titlecase }}</h2>
 
     <div class="subitems-horizontal-container mt-3">
-        <div class="subitems-flex">
+      <div class="subitems-flex">
           <!-- Option "All" en première position -->
           <div
             class="subitem"
@@ -18,13 +18,14 @@
             (click)="setActive(subtype.name)">
             {{ subtype.name }}
           </div>
-        </div>
       </div>
+    </div>
 
 
-      <ul class="product-grid list-unstyled mt-5">
+      <ul class="product-grid list-unstyled mt-5 pt-3">
         <li *ngFor="let product of CARDIGAN_COLLECTION">
           <app-card
+            [id]="product.id"
             [imageUrl]="'/images/products/' + product.image_name"
             [category]="product.category"
             [title]="product.name"
