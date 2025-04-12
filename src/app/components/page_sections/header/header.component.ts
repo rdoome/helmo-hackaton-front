@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { PRODUCT_CATEGORIES } from '../../constants/product-item-type.constant';
+import { PRODUCT_CATEGORIES } from '../../../constants/product-item-type.constant';
 
 
 export interface DropdownItem {
@@ -23,6 +23,13 @@ export interface DropdownGroup {
 })
 export class HeaderComponent {
   dropdowns: DropdownGroup[];
+
+  isCartOpen = false;
+
+  toggleCart(event: Event) {
+    event.preventDefault(); // 👈 empêche le reload
+    this.isCartOpen = !this.isCartOpen;
+  }
 
   constructor() {
     this.dropdowns = [
