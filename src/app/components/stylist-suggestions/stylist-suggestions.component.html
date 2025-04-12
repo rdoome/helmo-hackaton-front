@@ -4,6 +4,7 @@
   @for (item of suggestions; track item) {
   <li class="suggestion-item">
     <app-card
+      [id]="item.id"]
       [imageUrl]="item.imageUrl"
       [category]="item.category"
       [title]="item.title"

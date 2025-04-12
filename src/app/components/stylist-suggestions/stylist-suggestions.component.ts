@@ -1,7 +1,8 @@
-import {Component, input, computed, Injectable} from '@angular/core';
+import { Component } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 
 export interface SuggestionItem {
+  id: string;
   imageUrl: string;
   category: string;
   title: string;
