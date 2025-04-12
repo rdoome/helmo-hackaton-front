@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { PRODUCT_CATEGORIES } from '../../../constants/product-item-type.constant';
+import {StylistSuggestionsComponent} from '../../stylist-suggestions/stylist-suggestions.component';
 
 
 export interface DropdownItem {
@@ -17,7 +18,7 @@ export interface DropdownGroup {
 
 @Component({
   selector: 'app-header',
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, StylistSuggestionsComponent],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })

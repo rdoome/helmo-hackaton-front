@@ -79,24 +79,24 @@
               </li>
 
               <li class="nav-item dropdown" *ngFor="let dropdown of dropdowns">
-                <a class="nav-link me-5 active dropdown-toggle border-0" 
-                   href="#" 
+                <a class="nav-link me-5 active dropdown-toggle border-0"
+                   href="#"
                    (click)="$event.preventDefault()"
-                   id="{{ dropdown.title }}Dropdown" 
-                   data-bs-toggle="dropdown"  
+                   id="{{ dropdown.title }}Dropdown"
+                   data-bs-toggle="dropdown"
                    data-bs-auto-close="true"
                    aria-expanded="false">
                   {{ dropdown.title }}
                 </a>
                 <ul class="dropdown-menu fw-bold" [attr.aria-labelledby]="dropdown.title + 'Dropdown'">
                   <li *ngFor="let item of dropdown.items">
-                    <a class="dropdown-item" 
-                       [routerLink]="['/products']" 
+                    <a class="dropdown-item"
+                       [routerLink]="['/products']"
                        [queryParams]="{ gender: item.gender, item: item.type }">
                       {{ item.label }}
                     </a>
                   </li>
-                </ul>              
+                </ul>
               </li>
 
               <li class="nav-item dropdown">
@@ -152,9 +152,9 @@
                 <svg class="shopping-cart" width="24" height="24">
                   <use xlink:href="#shopping-cart"></use>
                 </svg>
-              </a>              
+              </a>
             </li>
-            
+
             <!-- Sidebar Panier -->
             <div class="cart-sidebar" [class.open]="isCartOpen">
               <div class="cart-header">
@@ -163,6 +163,7 @@
               </div>
               <div class="cart-content">
                 <p>The cart is empty.</p>
+                <app-stylist-suggestions />
               </div>
             </div>
             <li>
@@ -177,4 +178,3 @@
       </div>
     </nav>
   </header>
-  
