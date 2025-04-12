@@ -7,12 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './ai-sidebar.component.css'
 })
 export class AiSidebarComponent {
-  handleSubmit(e: Event) {
-    e.preventDefault();
-
+  submitPrompt() {
     const $input = <HTMLInputElement>document.querySelector("#prompt");
     if (!$input) return;
     const prompt = $input.value;
-    $input.value = "";
+    $input.innerText = "";
+  }
+
+  keyDown($event: KeyboardEvent) {
+    if ($event.key == "Enter") this.submitPrompt();
   }
 }

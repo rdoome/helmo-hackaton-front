@@ -5,9 +5,9 @@
         <li><p>Hi, As an AI model I cannot anwser that question.</p></li>
     </ul>
 
-    <form (submit)="handleSubmit($event)">
-        <label for="prompt">Ask for advice from your personal stylist.</label>
-      <div id="prompt" contenteditable="true" translate="no">
+    <form>
+      <label for="prompt">Ask for advice from your personal stylist.</label>
+      <div id="prompt" (keydown)="keyDown($event)" contenteditable="true" translate="no">
         <p></p>
       </div>
     </form>
