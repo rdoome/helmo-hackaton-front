@@ -1,7 +1,13 @@
-<h6>AI suggestions</h6>
+<h6 class="section-title">AI Suggestions</h6>
 
-@for (item of items; track item) {
-  <p>{{item.name}}</p>
-} @empty {
-  <p>No suggestions</p>
-}
+<ol class="suggestion-list">
+  @for (item of suggestions; track item) {
+  <li class="suggestion-item">
+    <app-card
+      [imageUrl]="item.imageUrl"
+      [category]="item.category"
+      [title]="item.title"
+    ></app-card>
+  </li>
+  }
+</ol>

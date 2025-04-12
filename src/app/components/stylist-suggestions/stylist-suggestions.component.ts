@@ -1,16 +1,19 @@
-import { Component } from '@angular/core';
+import {Component, input, computed, Injectable} from '@angular/core';
+import { CardComponent } from '../card/card.component';
 
-
+export interface SuggestionItem {
+  imageUrl: string;
+  category: string;
+  title: string;
+}
 
 @Component({
   selector: 'app-stylist-suggestions',
-  imports: [],
+  standalone: true,
+  imports: [CardComponent],
   templateUrl: './stylist-suggestions.component.html',
-  styleUrl: './stylist-suggestions.component.css'
+  styleUrls: ['./stylist-suggestions.component.css'],
 })
 export class StylistSuggestionsComponent {
-  items = [
-    { name: "A" },
-    { name: "B" }
-  ]
+  suggestions: SuggestionItem[] = [];
 }
