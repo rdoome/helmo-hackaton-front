@@ -7,7 +7,7 @@
           <div
             class="subitem"
             [class.selected]="activeItem === 'All'"
-            (click)="setActive('All')">
+            (click)="setActive('All', '')">
             All
           </div>
           <!-- Parcours de tous les sous-items -->
@@ -15,7 +15,7 @@
             class="subitem"
             *ngFor="let subtype of subtypes"
             [class.selected]="activeItem === subtype.name"
-            (click)="setActive(subtype.name)">
+            (click)="setActive(subtype.name, subtype.id)">
             {{ subtype.name }}
           </div>
         </div>
