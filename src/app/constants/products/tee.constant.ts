@@ -3,7 +3,7 @@ import {Product} from '../../../domain/Product';
 export const TEE_COLLECTION : Product[] = [
   {
     "id": "WOMEN-Graphic_Tees-id_00000279-01_7_additional",
-    "name": "Women's Vintage-Inspired Graphic Tee",
+    "name": "Women's Vintage-Inspired Retro Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00000279-01_7_additional.jpg",
     "price": 29.99,
     "category": "tops",
@@ -13,7 +13,7 @@ export const TEE_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Graphic_Tees-id_00000769-01_7_additional",
-    "name": "Women's Modern Minimalist Graphic Tee",
+    "name": "Women's Minimalist The Beatles Line Art Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00000769-01_7_additional.jpg",
     "price": 32.50,
     "category": "tops",
@@ -23,7 +23,7 @@ export const TEE_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Graphic_Tees-id_00000796-01_7_additional",
-    "name": "Women's Bold Statement Graphic Tee",
+    "name": "Women's Pop Art \"Please Donut\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00000796-01_7_additional.jpg",
     "price": 27.99,
     "category": "tops",
@@ -33,7 +33,7 @@ export const TEE_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Graphic_Tees-id_00000801-01_7_additional",
-    "name": "Women's Relaxed Crew Neck Graphic Tee",
+    "name": "Women's Black and White Striped \"Do Not Care\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00000801-01_7_additional.jpg",
     "price": 31.50,
     "category": "tops",
@@ -43,7 +43,7 @@ export const TEE_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Graphic_Tees-id_00000917-01_7_additional",
-    "name": "Women's Retro Pop Culture Graphic Tee",
+    "name": "Women's Bold \"Trouble Maker\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00000917-01_7_additional.jpg",
     "price": 34.99,
     "category": "tops",
@@ -53,7 +53,7 @@ export const TEE_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Graphic_Tees-id_00001067-01_7_additional",
-    "name": "Women's Artistic Expression Graphic Tee",
+    "name": "Women's Michael Jackson \"Beat It\" Retro Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00001067-01_7_additional.jpg",
     "price": 30.00,
     "category": "tops",
@@ -63,7 +63,7 @@ export const TEE_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Graphic_Tees-id_00002364-02_7_additional",
-    "name": "Women's Edgy Urban Graphic Tee",
+    "name": "Women's Bold \"Dreamer ATH. DEPT.\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00002364-02_7_additional.jpg",
     "price": 33.25,
     "category": "tops",
@@ -73,7 +73,7 @@ export const TEE_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Graphic_Tees-id_00002962-01_7_additional",
-    "name": "Women's Playful Graphic Tee",
+    "name": "Women's French-Inspired \"Le meilleur L’étoile du meilleur\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00002962-01_7_additional.jpg",
     "price": 28.75,
     "category": "tops",
@@ -83,7 +83,7 @@ export const TEE_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Graphic_Tees-id_00003072-04_7_additional",
-    "name": "Women's Minimalist Logo Graphic Tee",
+    "name": "Women's Minimalist \"No One Is Perfect\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00003072-04_7_additional.jpg",
     "price": 29.50,
     "category": "tops",
@@ -93,7 +93,7 @@ export const TEE_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Graphic_Tees-id_00006671-01_7_additional",
-    "name": "Women's Contemporary Graphic Tee",
+    "name": "Women's New York SOHO Urban Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00006671-01_7_additional.jpg",
     "price": 31.99,
     "category": "tops",
