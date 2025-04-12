@@ -3,23 +3,23 @@ import {Product} from '../../../domain/Product';
 export const JEANS_COLLECTION : Product[] = [
   {
     "id": "WOMEN-Denim-id_00000274-01_1_front",
-    "name": "Women's Classic Slim Denim Jeans",
+    "name": "Women's Classic Slim Beige Jeans",
     "image_name": "WOMEN-Denim-id_00000274-01_1_front.jpg",
     "price": 69.99,
     "category": "bottoms",
     "sub_category": "jeans",
     "color": "Beige",
-    "description": "This pair of women's denim jeans is crafted from sturdy cotton denim fabric with a slim fit design that contours the body while ensuring comfort. The cut is tailored with visible stitching along the pockets and seams, and the soft beige hue offers a neutral, versatile look that pairs effortlessly with a variety of styles. Reinforced rivets and neatly finished hems underscore a durable construction, making them suitable for both everyday casual wear and polished, smart-casual outfits."
+    "description": "Crafted from sturdy cotton denim, these beige jeans feature a tailored slim-fit design that hugs the body for a flattering silhouette without sacrificing comfort. The soft, neutral hue provides a timeless backdrop for endless styling possibilities, seamlessly transitioning from laid-back daytime looks to polished smart-casual ensembles. Thoughtful details like visible stitching along the pockets and seams add subtle texture, while reinforced rivets and precision-finished hems ensure durability for everyday wear."
   },
   {
     "id": "WOMEN-Denim-id_00000274-02_1_front",
-    "name": "Women's Modern Skinny Denim Jeans",
+    "name": "Women's Modern Slim Denim Jeans",
     "image_name": "WOMEN-Denim-id_00000274-02_1_front.jpg",
     "price": 79.50,
     "category": "bottoms",
     "sub_category": "jeans",
     "color": "Coral Pink",
-    "description": "These coral pink denim jeans feature a skinny fit that enhances body contours while offering sufficient stretch for comfort. Made from medium-weight denim, the fabric has a smooth texture with subtle abrasion marks and artisanal distress details along the thighs and knees. The vibrant yet soft coral pink hue adds a playful yet sophisticated touch, while precise stitching and reinforced seams ensure a polished, contemporary look. Perfect for casual outings or dressed-up semi-formal occasions, these jeans bring a fresh pop of color to any wardrobe."
+    "description": "These coral pink denim jeans feature a slim fit that balances a tailored silhouette with ease of movement, thanks to their built-in stretch. Crafted from medium-weight denim, the fabric boasts a refined texture with delicate abrasion marks and subtle distress detailing at the knees for a lived-in yet polished aesthetic. The soft coral pink hue offers a vibrant yet wearable pop of color, while clean stitching and reinforced seams ensure durability and a contemporary finish. Versatile enough for both casual daytime wear and dressed-up evening looks, these slim-fit jeans add a fresh, fashion-forward twist to any outfit."
   },
   {
     "id": "WOMEN-Denim-id_00000361-01_1_front",
@@ -33,13 +33,13 @@ export const JEANS_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Denim-id_00001988-07_1_front",
-    "name": "Women's Distressed Straight-Leg Denim Jeans",
+    "name": "Women's Slim Red Denim Jeans",
     "image_name": "WOMEN-Denim-id_00001988-07_1_front.jpg",
     "price": 72.00,
     "category": "bottoms",
     "sub_category": "jeans",
     "color": "Red",
-    "description": "Cut in a timeless straight-leg silhouette, these bold red denim jeans make a striking statement while maintaining a classic fit. The vibrant crimson hue is artfully contrasted with deliberate distressed details—lightly scuffed edges and subtle wear patterns that create a raw, edgy texture. Reinforced seams, gleaming metal button closures, and precise stitching along the pockets ensure durability, blending rebellious flair with rugged construction. Perfect for elevating streetwear looks or adding a daring pop to casual urban outfits, these jeans command attention without sacrificing versatility."
+    "description": "Tailored in a sleek slim-fit silhouette, these fiery red denim jeans deliver a head-turning statement with a refined edge. The intense crimson hue is balanced by intentional distressed detailing—strategic fraying at the hems and softly weathered patches that add rebellious character. Precision stitching contours the legs for a sharp, modern shape, while reinforced seams and polished metal hardware ensure lasting wear. Designed to transition effortlessly from day to night, these jeans pair equally well with crisp white sneakers for urban cool or heeled boots for night-out drama. A fearless twist on classic denim that commands attention while maintaining everyday versatility."
   },
   {
     "id": "WOMEN-Denim-id_00005824-02_1_front",
@@ -63,23 +63,23 @@ export const JEANS_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Denim-id_00005961-02_1_front",
-    "name": "Women's Straight-Cut Mid-Rise Denim Jeans",
+    "name": "Women's Slim Ripped with Jeans",
     "image_name": "WOMEN-Denim-id_00005961-02_1_front.jpg",
     "price": 74.50,
     "category": "bottoms",
     "sub_category": "jeans",
     "color": "Grey with wear",
-    "description": "These mid-rise denim jeans feature a timeless straight-leg cut, offering a clean, balanced silhouette. Crafted from sturdy grey denim, the fabric showcases a deliberate wear pattern—soft fading at the thighs and knees, paired with subtle abrasions for a lived-in, effortless look. Reinforced seams and precise stitching maintain structural integrity while enhancing the jeans' rugged charm. With their muted, versatile tone and artful distressing, these grey jeans bridge the gap between casual everyday wear and refined smart-casual ensembles."
+    "description": "These slim-fit grey jeans strike the perfect balance between edgy and wearable, with a tapered silhouette that contours the legs for a modern, streamlined look. Crafted from medium-weight grey denim, the fabric features intentional rips and fraying at the knees, paired with strategic fading for a perfectly broken-in feel. The mid-rise waist and precise stitching create a flattering fit, while reinforced seams and durable hardware ensure longevity. The artful distressing and versatile grey hue make these jeans ideal for both laid-back streetwear and polished casual outfits—effortlessly transitioning from daytime cool to nighttime edge."
   },
   {
     "id": "WOMEN-Denim-id_00006608-03_1_front",
-    "name": "Women's Ankle-Length Cropped Denim Jeans",
+    "name": "Women's Straight-Cut Denim Jeans",
     "image_name": "WOMEN-Denim-id_00006608-03_1_front.jpg",
     "price": 69.99,
     "category": "bottoms",
     "sub_category": "jeans",
     "color": "Light blue denim",
-    "description": "Exhibiting an ankle-length, cropped design, these denim jeans offer a contemporary take on classic denim wear. The light blue fabric presents a subtly distressed surface with natural creases and a raw, frayed hem that accentuates its artisanal character. Meticulous stitching and minimal abrasion work together to create a garment that is best suited for warm-weather casual wear and trendy street style ensembles."
+    "description": "Cut in a timeless straight-leg silhouette, these ankle-length jeans deliver a modern yet versatile look with their cropped, slightly raw hemline. The light blue denim showcases subtle distressing—soft fading at the thighs and natural creasing for a lived-in feel—while the clean lines of the straight cut maintain a polished, easy-to-style shape. Thoughtful details like reinforced stitching and minimal abrasion at stress points ensure durability without compromising the jeans' effortless aesthetic. Perfect for pairing with sneakers and tees for casual warmth-weather wear or dressing up with loafers and a linen shirt for a smart-casual ensemble, these straight-cut jeans strike the ideal balance between contemporary edge and everyday wearability."
   },
   {
     "id": "WOMEN-Denim-id_00006672-01_1_front",
