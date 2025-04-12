@@ -25,7 +25,7 @@ export const SHORTS_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Shorts-id_00000128-01_1_front",
-    "name": "Women's Short Shorts",
+    "name": "Women's Mini Shorts",
     "image_name": "WOMEN-Shorts-id_00000128-01_1_front.jpg",
     "price": 34.99,
     "category": "bottoms",
