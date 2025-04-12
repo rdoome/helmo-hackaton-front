@@ -169,7 +169,7 @@
                     [imageUrl]="'/images/products/' + product.image_name"
                     [category]="product.category"
                     [title]="product.name"
-                    [displayAddToCart]="false">
+                    [actionButton]="'removeFromCart'">
                   </app-card>
                   <hr *ngIf="!isLast" class="cart-divider">
                 </ng-container>
