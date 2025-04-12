@@ -1,0 +1,49 @@
+/* Conteneur principal : centré horizontalement */
+.subitems-horizontal-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Flex en ligne */
+  .subitems-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style de base de chaque sous-item */
+  .subitem {
+    color: #afaeae;  /* Gris clair */
+    padding: 10px 50px;
+    cursor: pointer;
+    font-size: 1.1em;
+  }
+  
+  /* Ajout d'une barre verticale entre les items (sauf le premier) */
+  .subitem:not(:first-child) {
+    border-left: 1px solid #afaeae;
+  }
+  
+  /* Au survol, l'item devient gris foncé et souligné */
+  .subitem:hover {
+    color: #666;
+    text-decoration: underline;
+  }
+  
+  /* L'élément sélectionné reste gris foncé et souligné */
+  .subitem.selected {
+    color: #666;
+    text-decoration: underline;
+  }
+  
+  .product-grid {
+    display: grid;
+    gap: 1rem 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    padding: 0;
+  }
+  

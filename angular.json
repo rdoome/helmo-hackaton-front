@@ -36,6 +36,7 @@
               "node_modules/jarallax/dist/jarallax.min.js",
               "node_modules/swiper/swiper-bundle.min.js",
               "node_modules/chocolat/dist/js/chocolat.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
           },
           "configurations": {

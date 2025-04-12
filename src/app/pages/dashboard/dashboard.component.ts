@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from "../../components/header/header.component";
-import { SliderComponent } from "../../components/slider/slider.component";
-import { DiscountCouponComponent } from "../../components/discount-coupon/discount-coupon.component";
-import { FeaturedProductsComponent } from "../../components/featured-products/featured-products.component";
-import { CollectionProductsComponent } from "../../components/collection-products/collection-products.component";
-import { LatestProductsComponent } from "../../components/latest-products/latest-products.component";
-import { FooterComponent } from "../../components/footer/footer.component";
+import { SliderComponent } from "../../components/page_sections/slider/slider.component";
+import { DiscountCouponComponent } from "../../components/page_sections/discount-coupon/discount-coupon.component";
+import { FeaturedProductsComponent } from "../../components/page_sections/featured-products/featured-products.component";
+import { CollectionProductsComponent } from "../../components/page_sections/collection-products/collection-products.component";
+import { LatestProductsComponent } from "../../components/page_sections/latest-products/latest-products.component";
+import { FooterComponent } from "../../components/page_sections/footer/footer.component";
 
 @Component({
   selector: 'app-dashboard',
-  imports: [HeaderComponent, SliderComponent, DiscountCouponComponent, FeaturedProductsComponent, CollectionProductsComponent, LatestProductsComponent, FooterComponent],
+  imports: [SliderComponent, DiscountCouponComponent, FeaturedProductsComponent, CollectionProductsComponent, LatestProductsComponent, FooterComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
