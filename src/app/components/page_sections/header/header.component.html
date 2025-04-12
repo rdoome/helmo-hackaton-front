@@ -155,16 +155,40 @@
               </a>              
             </li>
             
-            <!-- Sidebar Panier -->
-            <div class="cart-sidebar" [class.open]="isCartOpen">
-              <div class="cart-header">
-                <h5>Your cart</h5>
-                <button class="btn-close" (click)="toggleCart($event)">×</button>
-              </div>
-              <div class="cart-content">
-                <p>The cart is empty.</p>
-              </div>
+            <!-- Sidebar Cart -->
+          <div class="cart-sidebar" [class.open]="isCartOpen">
+            <div class="cart-header">
+              <h5 class="mt-2">Your cart</h5>
+              <button class="btn-close" (click)="toggleCart($event)">×</button>
             </div>
+            <div class="cart-content">
+              <ng-container *ngIf="cart && cart.length > 0; else emptyCart">
+                <ng-container *ngFor="let product of cart; let isLast = last">
+                  <app-card 
+                    [id]="product.id"
+                    [imageUrl]="'/images/products/' + product.image_name"
+                    [category]="product.category"
+                    [title]="product.name"
+                    [displayAddToCart]="false">
+                  </app-card>
+                  <hr *ngIf="!isLast" class="cart-divider">
+                </ng-container>
+              </ng-container>
+              <ng-template #emptyCart>
+                <p>The cart is empty.</p>
+              </ng-template>
+            </div>
+
+            <!-- Clear Cart Button -->
+            <div class="cart-footer">
+              <button class="clear-cart-btn" (click)="clearCart()">
+                <fa-icon [icon]="faTrash" class="clear-cart-icon"></fa-icon>
+                Clear cart
+              </button>
+            </div>
+          </div>
+
+              
             <li>
               <a href="#" class="search-item border-0" data-bs-toggle="collapse" data-bs-target="#search-box" aria-label="Toggle navigation">
                 <svg class="search" width="24" height="24">
