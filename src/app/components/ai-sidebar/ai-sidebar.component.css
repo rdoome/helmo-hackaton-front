@@ -1,0 +1,47 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  right: 0;
+
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+
+  border-left: #444 0.0625rem solid;
+  padding: 1rem;
+
+  h2 {
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+  }
+
+  label {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1rem;
+  }
+
+  div {
+    display: block;
+    width: 20rem;
+    max-height: 10rem;
+    margin: auto;
+    border-radius: 1rem;
+
+    border: none;
+    background-color: #dddddd;
+    padding: 0.5rem 1rem 0.5rem;
+    scrollbar-width: none;
+    overflow-y: scroll;
+  }
+
+  div:hover {
+      background-color: #aaaaaa;
+  }
+
+  div:focus {
+      background-color: #999999;
+      outline: none;
+  }
+}
