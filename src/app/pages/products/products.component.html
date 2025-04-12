@@ -1,0 +1,25 @@
+<section class="container-lg mt-5">
+    <h2 class="text-secondary">{{ gender | titlecase }} - {{ itemType | titlecase }}</h2>
+
+    <div class="subitems-horizontal-container mt-3">
+        <div class="subitems-flex">
+          <!-- Option "All" en première position -->
+          <div 
+            class="subitem" 
+            [class.selected]="activeItem === 'All'" 
+            (click)="setActive('All')">
+            All
+          </div>
+          <!-- Parcours de tous les sous-items -->
+          <div 
+            class="subitem" 
+            *ngFor="let subtype of subtypes"
+            [class.selected]="activeItem === subtype.name"
+            (click)="setActive(subtype.name)">
+            {{ subtype.name }}
+          </div>
+        </div>
+      </div>
+</section>
+
+  

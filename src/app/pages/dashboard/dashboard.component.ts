@@ -10,7 +10,7 @@ import { FooterComponent } from "../../components/footer/footer.component";
 
 @Component({
   selector: 'app-dashboard',
-  imports: [PreloaderComponent, HeaderComponent, SliderComponent, DiscountCouponComponent, FeaturedProductsComponent, CollectionProductsComponent, LatestProductsComponent, FooterComponent],
+  imports: [SliderComponent, DiscountCouponComponent, FeaturedProductsComponent, CollectionProductsComponent, LatestProductsComponent, FooterComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
