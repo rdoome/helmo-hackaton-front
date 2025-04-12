@@ -3,14 +3,7 @@
 
     <div class="subitems-horizontal-container mt-3">
         <div class="subitems-flex">
-          <!-- Option "All" en première position -->
-          <div
-            class="subitem"
-            [class.selected]="activeItem === 'All'"
-            (click)="setActive('All', '')">
-            All
-          </div>
-          <!-- Parcours de tous les sous-items -->
+          <!-- List all types -->
           <div
             class="subitem"
             *ngFor="let subtype of subtypes"

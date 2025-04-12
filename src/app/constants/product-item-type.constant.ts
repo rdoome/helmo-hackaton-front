@@ -61,7 +61,7 @@ export const PRODUCT_CATEGORIES = {
       "label": "Rompers"
     },
     "short": {
-      "label": "Rompers"
+      "label": "Shorts"
     },
     "skirt": {
       "label": "Skirts"
