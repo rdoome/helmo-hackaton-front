@@ -1,0 +1,14 @@
+<h6 class="section-title">AI Suggestions</h6>
+
+<ol class="suggestion-list">
+  @for (item of suggestions; track item) {
+  <li class="suggestion-item">
+    <app-card
+      [id]="item.id"]
+      [imageUrl]="item.imageUrl"
+      [category]="item.category"
+      [title]="item.title"
+    ></app-card>
+  </li>
+  }
+</ol>

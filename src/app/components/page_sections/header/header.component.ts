@@ -2,12 +2,13 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { PRODUCT_CATEGORIES } from '../../../constants/product-item-type.constant';
+import { StylistSuggestionsComponent } from '../../stylist-suggestions/stylist-suggestions.component';
 import { CartStore } from '../../../store/cart/cart.state';
 import { Product } from '../../../../domain/Product';
 import { CardComponent } from "../../card/card.component";
 import { CartQuery } from '../../../store/cart/cart.query';
 import { Subscription } from 'rxjs';
-import { faTrash } from '@fortawesome/free-solid-svg-icons'; 
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { CartService } from '../../../store/cart/cart.store';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
@@ -26,7 +27,7 @@ export interface DropdownGroup {
 
 @Component({
   selector: 'app-header',
-  imports: [CommonModule, RouterModule, CardComponent, FontAwesomeModule],
+  imports: [CommonModule, RouterModule, CardComponent, FontAwesomeModule, StylistSuggestionsComponent],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
@@ -38,7 +39,7 @@ export class HeaderComponent implements OnInit{
   cart: Product[] = [];
   isCartOpen = false;
   private subscriptions = new Subscription();
-  faTrash = faTrash; 
+  faTrash = faTrash;
 
 
   ngOnInit(): void {
@@ -46,16 +47,16 @@ export class HeaderComponent implements OnInit{
       .subscribe(products => {
         this.cart = products;
       });
-    
+
     const isOpenSub = this.cartQuery.select(state => state.isOpen)
       .subscribe(isOpen => {
         this.isCartOpen = isOpen;
       });
-    
+
     this.subscriptions.add(productsSub);
     this.subscriptions.add(isOpenSub);
   }
-  
+
   ngOnDestroy(): void {
     this.subscriptions.unsubscribe();
   }

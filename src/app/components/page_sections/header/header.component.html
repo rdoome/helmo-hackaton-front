@@ -79,24 +79,24 @@
               </li>
 
               <li class="nav-item dropdown" *ngFor="let dropdown of dropdowns">
-                <a class="nav-link me-5 active dropdown-toggle border-0" 
-                   href="#" 
+                <a class="nav-link me-5 active dropdown-toggle border-0"
+                   href="#"
                    (click)="$event.preventDefault()"
-                   id="{{ dropdown.title }}Dropdown" 
-                   data-bs-toggle="dropdown"  
+                   id="{{ dropdown.title }}Dropdown"
+                   data-bs-toggle="dropdown"
                    data-bs-auto-close="true"
                    aria-expanded="false">
                   {{ dropdown.title }}
                 </a>
                 <ul class="dropdown-menu fw-bold" [attr.aria-labelledby]="dropdown.title + 'Dropdown'">
                   <li *ngFor="let item of dropdown.items">
-                    <a class="dropdown-item" 
-                       [routerLink]="['/products']" 
+                    <a class="dropdown-item"
+                       [routerLink]="['/products']"
                        [queryParams]="{ gender: item.gender, item: item.type }">
                       {{ item.label }}
                     </a>
                   </li>
-                </ul>              
+                </ul>
               </li>
 
               <li class="nav-item dropdown">
@@ -152,9 +152,9 @@
                 <svg class="shopping-cart" width="24" height="24">
                   <use xlink:href="#shopping-cart"></use>
                 </svg>
-              </a>              
+              </a>
             </li>
-            
+
             <!-- Sidebar Cart -->
           <div class="cart-sidebar" [class.open]="isCartOpen">
             <div class="cart-header">
@@ -164,7 +164,7 @@
             <div class="cart-content">
               <ng-container *ngIf="cart && cart.length > 0; else emptyCart">
                 <ng-container *ngFor="let product of cart; let isLast = last">
-                  <app-card 
+                  <app-card
                     [id]="product.id"
                     [imageUrl]="'/images/products/' + product.image_name"
                     [category]="product.category"
@@ -177,6 +177,7 @@
               <ng-template #emptyCart>
                 <p>The cart is empty.</p>
               </ng-template>
+              <app-stylist-suggestions />
             </div>
 
             <!-- Clear Cart Button -->
@@ -188,7 +189,6 @@
             </div>
           </div>
 
-              
             <li>
               <a href="#" class="search-item border-0" data-bs-toggle="collapse" data-bs-target="#search-box" aria-label="Toggle navigation">
                 <svg class="search" width="24" height="24">
@@ -201,4 +201,3 @@
       </div>
     </nav>
   </header>
-  
