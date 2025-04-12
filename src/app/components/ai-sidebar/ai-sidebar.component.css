@@ -30,18 +30,18 @@
     border-radius: 1rem;
 
     border: none;
-    background-color: #dddddd;
+    background-color: #eee;
     padding: 0.5rem 1rem 0.5rem;
     scrollbar-width: none;
     overflow-y: scroll;
   }
 
   div:hover {
-      background-color: #aaaaaa;
+      background-color: #bbb;
   }
 
   div:focus {
-      background-color: #999999;
+      background-color: #bbb;
       outline: none;
   }
 }
