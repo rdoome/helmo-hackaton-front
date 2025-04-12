@@ -16,6 +16,10 @@
       padding: 1rem;
   }
 
+  li {
+    list-style: none;
+  }
+
   label {
       width: 100%;
       text-align: center;
