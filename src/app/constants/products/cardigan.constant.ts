@@ -23,23 +23,23 @@ export const CARDIGAN_COLLECTION : Product[] = [
   },
   {
     "id": "CD003",
-    "name": "Navy Oversized Cardigan",
+    "name": "Yellow Knit Cardigan",
     "image_name": "WOMEN-Cardigans-id_00000450-03_1_front.jpg",
     "price": 79.99,
     "category": "tops",
     "sub_category": "cardigans",
     "color": "Yellow",
-    "description": "This oversized cardigan comes in a deep yellow, giving it a contemporary and bold look. Yellow tone is ideal for adding contrast to lighter outfits and works exceptionally well with crisp white or soft pastel pieces. Its roomy fit and longline cut not only provide comfort but also a modern, street-chic silhouette, making it a standout layering option."
+    "description": "This classic-fit knit cardigan comes in a deep yellow, offering a contemporary and bold look. The rich yellow hue is perfect for adding contrast to lighter outfits and pairs effortlessly with crisp white or soft pastel pieces. Its tailored fit and timeless design provide both comfort and a polished, versatile silhouette, making it an elegant layering choice for any wardrobe."
   },
   {
     "id": "CD004",
-    "name": "Chic Long Cardigan",
+    "name": "Red Knit Cardigan",
     "image_name": "WOMEN-Cardigans-id_00000450-05_1_front.jpg",
     "price": 84.99,
     "category": "tops",
     "sub_category": "cardigans",
     "color": "Red",
-    "description": "Featuring a sleek, longline design, this cardigan is presented in a bold, fiery red. The rich, vibrant hue makes a striking statement, elevating any outfit with confidence and energy. Its structured yet soft fabric drapes elegantly over the body, perfect for layering over neutral tones or contrasting dark garments. Minimalist accessories in gold or glossy leather enhance its modern, daring sophistication."
+    "description": "This slim-fit knit cardigan comes in a deep red, delivering a modern and vibrant look. The rich red hue is perfect for adding warmth to neutral outfits and pairs beautifully with crisp white, soft creams, or cool-toned pieces. Its tailored silhouette offers a polished yet comfortable fit, making it a versatile layering piece for both casual and refined styles."
   },
   {
     "id": "CD005",
@@ -63,7 +63,7 @@ export const CARDIGAN_COLLECTION : Product[] = [
   },
   {
     "id": "CD007",
-    "name": "Soft Pastel Cardigan",
+    "name": "Black Charcoal Cardigan",
     "image_name": "WOMEN-Cardigans-id_00000874-02_1_front.jpg",
     "price": 64.99,
     "category": "tops",
@@ -83,12 +83,12 @@ export const CARDIGAN_COLLECTION : Product[] = [
   },
   {
     "id": "CD009",
-    "name": "Rich Cable Knit Cardigan",
+    "name": "Gey Knit Cardigan",
     "image_name": "WOMEN-Cardigans-id_00001415-06_1_front.jpg",
     "price": 89.99,
     "category": "tops",
     "sub_category": "cardigans",
     "color": "grey heather",
-    "description": "This beautifully textured cable knit cardigan comes in a versatile grey heather, blending timeless charm with modern versatility. The soft, heathered tone adds subtle depth to the classic cable detailing, creating a piece that feels both refined and effortlessly cool. Perfect for transitional weather, this cardigan layers elegantly over crisp whites for a clean look or rich navies for understated contrast. The muted grey hue and intricate knit make it a sophisticated choice that works just as well with weekend denim as it does with tailored trousers for a smart-casual aesthetic."
+    "description": "This beautifully textured knit cardigan comes in a versatile grey heather, blending timeless charm with modern versatility. The soft, heathered tone adds subtle depth to the classic cable detailing, creating a piece that feels both refined and effortlessly cool. Perfect for transitional weather, this cardigan layers elegantly over crisp whites for a clean look or rich navies for understated contrast. The muted grey hue and intricate knit make it a sophisticated choice that works just as well with weekend denim as it does with tailored trousers for a smart-casual aesthetic."
   }
 ]

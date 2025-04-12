@@ -3,23 +3,23 @@ import {Product} from '../../../domain/Product';
 export const DRESSES_COLLECTION : Product[] = [
   {
     "id": "WOMEN-Dresses-id_00000002-02_1_front",
-    "name": "Women's A-Line Shift Dress",
+    "name": "Women's Black with Pink Flowers Dress",
     "image_name": "WOMEN-Dresses-id_00000002-02_1_front.jpg",
     "price": 89.99,
     "category": "dresses",
     "sub_category": "shift dress",
     "color": "Black with pink flowers",
-    "description": "This black dress blooms with delicate pink flowers, creating a striking contrast against its classic A-line silhouette. The structured, slightly boxy bodice flows into an easy, relaxed skirt, with the lightweight woven fabric draping gracefully to highlight the floral pattern. Crisp seams frame the neckline and armholes, while neatly bound edges and subtle topstitching lend polished refinement. Versatile enough for both daytime outings and understated professional settings, this dress balances feminine charm with timeless sophistication."
+    "description": "This elegant black dress features delicate pink floral detailing, creating a striking contrast that’s both feminine and timeless. The dark base ensures versatility, while the soft pink blossoms add a romantic, fresh touch—perfect for both daytime charm and evening sophistication. The fit is tailored yet comfortable, making it a flattering choice for various occasions."
   },
   {
     "id": "WOMEN-Dresses-id_00000009-02_1_front",
-    "name": "Women's Fitted Sheath Dress",
+    "name": "Women's Motifs Dress",
     "image_name": "WOMEN-Dresses-id_00000009-02_1_front.jpg",
     "price": 109.50,
     "category": "dresses",
     "sub_category": "sheath dress",
     "color": "White and red with small motifs",
-    "description": "This sleek sheath dress in crisp white is adorned with playful red motifs, creating a striking yet sophisticated contrast. Cut to follow the body's natural curves, its thick stretch-fabric blend offers both sculpted structure and easy movement. The tailored construction shines through visible stitching along the neckline and subtly reinforced side seams, while the scattered red patterns add a lively touch. Perfect for making a polished statement in professional environments or elevating evening looks, this dress balances precision tailoring with vibrant personality."
+    "description": "This fresh white dress is adorned with bold red motifs, creating a vibrant yet timeless look. The crisp white base keeps the design clean and versatile, while the red accents add a playful, eye-catching pop—perfect for everything from summer outings to evening events. The silhouette is effortlessly chic, offering a flattering fit that balances elegance with a touch of spirited charm."
   },
   {
     "id": "WOMEN-Dresses-id_00000021-05_1_front",
@@ -63,13 +63,13 @@ export const DRESSES_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Dresses-id_00000035-05_7_additional.jpg",
-    "name": "Women's Asymmetrical Sundress",
+    "name": "Women's Party Red Dress",
     "image_name": "WOMEN-Dresses-id_00000035-05_7_additional.jpg",
     "price": 99.50,
     "category": "dresses",
     "sub_category": "sundress",
     "color": "Dark red",
-    "description": "This striking asymmetrical sundress cuts a dramatic silhouette with its unconventional hemline and sleek, sleeveless design. Crafted from a lightweight, breathable fabric in a deep, wine-dark red, the material boasts a subtle texture that catches the light for added dimension. Precision stitching along the seams and understated neckline detailing lend an air of intentional simplicity, while the fluid drape ensures effortless movement. Ideal for sunset strolls or alfresco gatherings, it merges avant-garde flair with warm-weather ease."
+    "description": "Make a bold and unforgettable entrance in this stunning women's party red dress, designed to exude confidence and glamour. Crafted from luxurious, figure-hugging fabric, this dress features a vibrant red hue that commands attention, whether it's a sleek bodycon silhouette, a flowing A-line, or a sultry off-shoulder design. Elegant details like a thigh-high slit, delicate lace accents, or subtle shimmer elevate the look, making it perfect for cocktail parties, date nights, or New Year’s Eve celebrations. The striking color flatters all skin tones, while the tailored fit ensures a flawless, head-turning appearance."
   },
   {
     "id": "WOMEN-Dresses-id_00000042-02_1_front.jpg",
@@ -83,22 +83,22 @@ export const DRESSES_COLLECTION : Product[] = [
   },
   {
     "id": "WOMEN-Dresses-id_00000073-02_2_side.jpg",
-    "name": "Women's Peplum Dress",
+    "name": "Women's Countryside Dress",
     "image_name": "WOMEN-Dresses-id_00000073-02_2_side.jpg",
     "price": 110.00,
     "category": "dresses",
-    "sub_category": "peplum dress",
+    "sub_category": "Countryside dress",
     "color": "Red with pattern",
-    "description": "This impeccably tailored dress is sculpted for a streamlined silhouette, its structured cut highlighting sharp, architectural lines. Crafted from a bold, luxuriously smooth crimson fabric, the rich red hue exudes confidence and drama, while intricate motifs—subtle yet striking—adorn the cuffs and hem in an artful interplay of geometric precision. The material holds its shape flawlessly, elevated by pronounced reinforced stitching along the collar and side seams in deep onyx for a bold contrast. Strategic darts contour the body with precision, offering a secure yet comfortable fit. Radiating opulent sophistication, it’s a versatile statement piece designed to command attention, effortlessly transitioning from power-suited boardroom ensembles to lavish evening attire."
+    "description": "Embrace rustic elegance in this women’s countryside-style red dress, adorned with a delicate floral, gingham, or folk-inspired pattern for a touch of pastoral romance. Crafted from lightweight, breathable fabric like cotton or linen, this dress balances comfort and style with its softly flowing silhouette, puff sleeves, or smocked bodice—perfect for strolls through meadows, picnics, or sunny village outings. The warm red base and whimsical print evoke a cheerful, vintage-inspired vibe, while subtle details like lace trim, ruffled hems, or a tiered skirt add feminine flair."
   },
   {
     "id": "WOMEN-Dresses-id_00000087-02_1_front.jpg",
-    "name": "Women's Midi Wrap Dress",
+    "name": "Women's Light Cyan Dress",
     "image_name": "WOMEN-Dresses-id_00000087-02_1_front.jpg",
     "price": 102.75,
     "category": "dresses",
-    "sub_category": "wrap dress",
+    "sub_category": "dress",
     "color": "Light cyan",
-    "description": "This midi wrap dress offers an elegant design with a wrap closure that defines the waist while allowing for adjustable drape and movement. The fabric is a mid-weight material with a lightly textured weave, rendered in a serene light cyan hue that evokes a fresh, airy sophistication. Its soft, matte finish lends a modern purity, while reinforced seam lines in crisp white along the neckline and waist ensure a secure yet graceful fit. The fluid silhouette glides effortlessly, making it equally suited for polished daytime wear and refined evening gatherings—where its cool, delicate shade stands out with understated charm."
+    "description": "Radiate serene sophistication in this light cyan dress, a delicate blend of airy charm and modern femininity. The soft, pastel-blue shade evokes the tranquility of clear skies and ocean mist, making it a refreshing choice for spring and summer occasions. Designed for comfort and grace, this dress features a flattering silhouette"
   }
 ]
