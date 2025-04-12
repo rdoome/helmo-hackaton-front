@@ -20,6 +20,19 @@
           </div>
         </div>
       </div>
+
+
+      <ul class="product-grid list-unstyled mt-5">
+        <li *ngFor="let product of products">
+          <app-card
+            [imageUrl]="product.imageUrl"
+            [category]="product.category"
+            [title]="product.title"
+          ></app-card>
+        </li>
+      </ul>
+      
+      
 </section>
 
   

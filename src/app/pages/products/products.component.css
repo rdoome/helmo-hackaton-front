@@ -39,3 +39,11 @@
     text-decoration: underline;
   }
   
+  .product-grid {
+    display: grid;
+    gap: 1rem 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    padding: 0;
+  }
+  
