@@ -4,6 +4,8 @@ import { PRODUCT_CATEGORIES } from '../../constants/product-item-type.constant';
 import { CommonModule } from '@angular/common';
 import { CardComponent } from '../../components/card/card.component';
 import {CARDIGAN_COLLECTION} from '../../constants/products/cardigan.constant';
+import {getProductCollectionByType} from '../../factories/ProductFactory';
+import {Product} from '../../../domain/Product';
 
 @Component({
   selector: 'app-products',
@@ -58,6 +60,8 @@ export class ProductsComponent implements OnInit {
     }
   ];
 
+  protected PRODUCT_COLLECTION: Product[] = [];
+
   ngOnInit(): void {
     this.route.queryParams.subscribe(params => {
       this.gender = params['gender'];
@@ -66,12 +70,14 @@ export class ProductsComponent implements OnInit {
       if (this.gender && this.itemType) {
         const genderKey = this.gender as 'men' | 'women';
         const itemKey = this.itemType as keyof typeof PRODUCT_CATEGORIES[typeof genderKey];
+        console.log(itemKey)
+        this.PRODUCT_COLLECTION = getProductCollectionByType(itemKey)
 
-        if (PRODUCT_CATEGORIES[genderKey] && PRODUCT_CATEGORIES[genderKey][itemKey]) {
-          this.subtypes = PRODUCT_CATEGORIES[genderKey][itemKey].subtypes;
-        } else {
-          this.subtypes = [];
-        }
+        this.subtypes = this.subtypes = Object.entries(PRODUCT_CATEGORIES[genderKey])
+          .map(([id, { label }]) => ({
+            id,
+            name: label
+          }));
       }
     });
   }
@@ -80,5 +86,5 @@ export class ProductsComponent implements OnInit {
     this.activeItem = item;
   }
 
-  protected readonly CARDIGAN_COLLECTION = CARDIGAN_COLLECTION;
+  // protected readonly PRODUCT_COLLECTION = CARDIGAN_COLLECTION;
 }
