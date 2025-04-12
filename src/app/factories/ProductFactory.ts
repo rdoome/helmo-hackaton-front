@@ -8,14 +8,15 @@ import {PANTS_COLLECTION} from '../constants/products/pant.constant';
 import {ROMPERS_COLLECTION} from '../constants/products/romper.constant';
 import {SHORTS_COLLECTION} from '../constants/products/short.constant';
 import {SKIRT_COLLECTION} from '../constants/products/skirt.constant';
+import {BLOUSES_COLLECTION} from '../constants/products/blouse.constant';
 
 
-export function getClothesCollection(type: string): Product[] {
+export function getProductCollectionByType(type: string): Product[] {
   switch (type) {
     case 'blouse':
-      return CARDIGAN_COLLECTION;
+      return BLOUSES_COLLECTION;
     case 'cardigan':
-      return TEE_COLLECTION;
+      return CARDIGAN_COLLECTION;
     case 'dress':
       return DRESSES_COLLECTION;
     case 'jacket':
@@ -37,3 +38,4 @@ export function getClothesCollection(type: string): Product[] {
       return [];
   }
 }
+

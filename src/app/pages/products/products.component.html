@@ -2,28 +2,21 @@
     <h2 class="text-secondary">{{ gender | titlecase }} - {{ itemType | titlecase }}</h2>
 
     <div class="subitems-horizontal-container mt-3">
-      <div class="subitems-flex">
-          <!-- Option "All" en première position -->
-          <div
-            class="subitem"
-            [class.selected]="activeItem === 'All'"
-            (click)="setActive('All')">
-            All
-          </div>
-          <!-- Parcours de tous les sous-items -->
+        <div class="subitems-flex">
+          <!-- List all types -->
           <div
             class="subitem"
             *ngFor="let subtype of subtypes"
             [class.selected]="activeItem === subtype.name"
-            (click)="setActive(subtype.name)">
+            (click)="setActive(subtype.name, subtype.id)">
             {{ subtype.name }}
           </div>
       </div>
     </div>
 
 
-      <ul class="product-grid list-unstyled mt-5 pt-3">
-        <li *ngFor="let product of CARDIGAN_COLLECTION">
+      <ul class="product-grid list-unstyled mt-5">
+        <li *ngFor="let product of PRODUCT_COLLECTION">
           <app-card
             [id]="product.id"
             [imageUrl]="'/images/products/' + product.image_name"
