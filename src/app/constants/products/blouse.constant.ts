@@ -2,103 +2,104 @@ import {Product} from '../../../domain/Product';
 
 export const BLOUSES_COLLECTION : Product[] = [
   {
-    "id": "WOMEN-Denim-id_00000274-01_1_front",
-    "name": "Women's Classic Slim Beige Jeans",
-    "image_name": "WOMEN-Denim-id_00000274-01_1_front.jpg",
+    "id": "BL001",
+    "name": "Elegant Blouse",
+    "image_name": "WOMEN-Blouses_Shirts-id_00000380-04_1_front.jpg",
+    "price": 89.99,
+    "category": "tops",
+    "sub_category": "blouses",
+    "color": "Orange",
+    "description": "A refined blouse crafted from high-quality silk in a vibrant orange shade. The delicate fabric and graceful drape make it an ideal choice for formal occasions and upscale events. The bold orange hue pairs beautifully with metallic accessories and neutral tones, adding a pop of color to your ensemble. The bottom of the blouse is elegantly finished with intertwined rope detailing, offering a unique and sophisticated twist. Style it with tailored trousers or a pencil skirt for a look that exudes both timeless elegance and modern luxury."
+  },
+  {
+    "id": "BL002",
+    "name": "Stripe Blouse",
+    "image_name": "WOMEN-Blouses_Shirts-id_00000355-01_1_front.jpg",
+    "price": 64.99,
+    "category": "tops",
+    "sub_category": "blouses",
+    "color": "Black, Blue",
+    "description": "This casual blouse features bold blue and black stripes accented with unique motifs, perfect for adding a touch of character to your everyday wear. Made from breathable cotton fabric, it ensures both comfort and durability. The dynamic stripe pattern with stylish motifs creates a modern, relaxed look. Pair it with denim or light chinos, and finish with minimalist silver accessories for a fresh, contemporary appearance."
+  },
+  {
+    "id": "BL003",
+    "name": "Modern Stylish Blouse",
+    "image_name": "WOMEN-Blouses_Shirts-id_00000243-01_1_front.jpg",
+    "price": 74.99,
+    "category": "tops",
+    "sub_category": "blouses",
+    "color": "White, brown, blue",
+    "description": "A contemporary blouse featuring a crisp white background adorned with a delicate floral pattern in soft brown and blue tones. The lightweight blend drapes beautifully, offering a perfect balance of femininity and modern charm. Ideal for both professional settings and casual outings, the neutral base pairs effortlessly with muted neutrals or contrasting dark bottoms. Accent with gold or rose-gold jewelry for an effortlessly chic look."
+  },
+  {
+    "id": "BL004",
+    "name": "Pink floral Blouse",
+    "image_name": "WOMEN-Blouses_Shirts-id_00000179-02_1_front.jpg",
     "price": 69.99,
-    "category": "bottoms",
-    "sub_category": "jeans",
-    "color": "Beige",
-    "description": "Crafted from sturdy cotton denim, these beige jeans feature a tailored slim-fit design that hugs the body for a flattering silhouette without sacrificing comfort. The soft, neutral hue provides a timeless backdrop for endless styling possibilities, seamlessly transitioning from laid-back daytime looks to polished smart-casual ensembles. Thoughtful details like visible stitching along the pockets and seams add subtle texture, while reinforced rivets and precision-finished hems ensure durability for everyday wear."
+    "category": "tops",
+    "sub_category": "blouses",
+    "color": "Red and pink",
+    "description": "Designed for a polished office look, this blouse features a structured cut in a soft red shade adorned with delicate pink floral patterns. The fabric blend maintains its shape throughout the day while offering a comfortable fit. The gentle red hue with floral accents creates a sophisticated yet refreshing backdrop for statement accessories or a vibrant scarf. Style it with tailored skirts or trousers for a look that effortlessly transitions from boardroom to after-hours."
   },
   {
-    "id": "WOMEN-Denim-id_00000274-02_1_front",
-    "name": "Women's Modern Slim Denim Jeans",
-    "image_name": "WOMEN-Denim-id_00000274-02_1_front.jpg",
-    "price": 79.50,
-    "category": "bottoms",
-    "sub_category": "jeans",
-    "color": "Coral Pink",
-    "description": "These coral pink denim jeans feature a slim fit that balances a tailored silhouette with ease of movement, thanks to their built-in stretch. Crafted from medium-weight denim, the fabric boasts a refined texture with delicate abrasion marks and subtle distress detailing at the knees for a lived-in yet polished aesthetic. The soft coral pink hue offers a vibrant yet wearable pop of color, while clean stitching and reinforced seams ensure durability and a contemporary finish. Versatile enough for both casual daytime wear and dressed-up evening looks, these slim-fit jeans add a fresh, fashion-forward twist to any outfit."
+    "id": "BL005",
+    "name": "Marine blue Blouse",
+    "image_name": "WOMEN-Blouses_Shirts-id_00000172-03_1_front.jpg",
+    "price": 59.99,
+    "category": "tops",
+    "sub_category": "blouses",
+    "color": "marine blue",
+    "description": "A refined blouse crafted from high-quality silk in a sophisticated marine blue shade. The delicate fabric and graceful drape make it an ideal choice for formal occasions and upscale events. The rich marine blue hue pairs effortlessly with metallic accessories and deep neutral tones. Best worn with tailored trousers or a pencil skirt, this blouse radiates timeless elegance and understated luxury."
   },
   {
-    "id": "WOMEN-Denim-id_00000361-01_1_front",
-    "name": "Women's Relaxed Fit High-Waisted Denim",
-    "image_name": "WOMEN-Denim-id_00000361-01_1_front.jpg",
-    "price": 85.00,
-    "category": "bottoms",
-    "sub_category": "jeans",
-    "color": "Light blue with white strips",
-    "description": "Designed with a high-waisted, relaxed fit, these light blue denim jeans offer a comfortable drape and a subtly structured silhouette. The fabric is a durable cotton denim adorned with crisp white pinstripes, adding a fresh, nautical-inspired touch to the classic design. Gentle textural variations from wear enhance the lived-in charm, while clean stitching and discreet rivet detailing maintain a polished finish. Blending retro appeal with modern tailoring, these striped jeans effortlessly transition from daytime casual outfits to elevated smart-casual ensembles."
+    "id": "BL006",
+    "name": "Peach Crochet Top",
+    "image_name": "WOMEN-Blouses_Shirts-id_00000171-01_1_front.jpg",
+    "price": 54.99,
+    "category": "tops",
+    "sub_category": "blouses",
+    "color": "Peach",
+    "description": "This is a three-quarter sleeve blouse in a delicate peach color.  The defining feature is the intricate crocheted detailing. This crochet trim is not just decorative; it creates a layered effect with cutouts running along the neckline, sleeves, and hem."
   },
   {
-    "id": "WOMEN-Denim-id_00001988-07_1_front",
-    "name": "Women's Slim Red Denim Jeans",
-    "image_name": "WOMEN-Denim-id_00001988-07_1_front.jpg",
-    "price": 72.00,
-    "category": "bottoms",
-    "sub_category": "jeans",
-    "color": "Red",
-    "description": "Tailored in a sleek slim-fit silhouette, these fiery red denim jeans deliver a head-turning statement with a refined edge. The intense crimson hue is balanced by intentional distressed detailing—strategic fraying at the hems and softly weathered patches that add rebellious character. Precision stitching contours the legs for a sharp, modern shape, while reinforced seams and polished metal hardware ensure lasting wear. Designed to transition effortlessly from day to night, these jeans pair equally well with crisp white sneakers for urban cool or heeled boots for night-out drama. A fearless twist on classic denim that commands attention while maintaining everyday versatility."
+    "id": "BL007",
+    "name": "Paisley Print Peasant Blouse",
+    "image_name": "WOMEN-Blouses_Shirts-id_00000057-03_1_front.jpg",
+    "price": 82.99,
+    "category": "tops",
+    "sub_category": "blouses",
+    "color": "Cream/Off-White base with a dark purple/burgundy paisley and floral print.",
+    "description": "This is a three-quarter sleeve peasant-style blouse featuring a delicate cream background adorned with a scattered dark purple floral pattern. The hemline is accented by a band of repeating paisley designs in the same purple hue. "
   },
   {
-    "id": "WOMEN-Denim-id_00005824-02_1_front",
-    "name": "Women's Vintage-Inspired Bootcut Denim Jeans",
-    "image_name": "WOMEN-Denim-id_00005824-02_1_front.jpg",
-    "price": 88.25,
-    "category": "bottoms",
-    "sub_category": "jeans",
-    "color": "Washed indigo denim with soft fading and slight whiskering",
-    "description": "These bootcut denim jeans evoke a vintage-inspired aesthetic through a relaxed waistline and flared leg that gently tapers at the boot. The washed indigo fabric has developed a natural softness with subtle fading and delicate whiskering on the thighs. Complemented by contrast stitching and reinforced belt loops, the jeans offer a perfect balance of retro styling and modern construction, ideal for everyday wear or casual social gatherings."
+    "id": "BL008",
+    "name": "Lace Sleeve Sheer Panel Blouse",
+    "image_name": "WOMEN-Blouses_Shirts-id_00000031-02_1_front.jpg",
+    "price": 94.99,
+    "category": "tops",
+    "sub_category": "blouses",
+    "color": "White",
+    "description": "This is a white sleeveless blouse featuring delicate lace cap sleeves and a sheer panel across the upper chest and shoulders. The lightweight fabric offers a soft, airy feel, while the lace adds a feminine, textured detail. It combines elegance and comfort, making it suitable for both casual and dressy occasions."
   },
   {
-    "id": "WOMEN-Denim-id_00005892-05_1_front",
-    "name": "Women's High-Rise Tapered Denim Jeans",
-    "image_name": "WOMEN-Denim-id_00005892-05_1_front.jpg",
-    "price": 82.75,
-    "category": "bottoms",
-    "sub_category": "jeans",
-    "color": "Deep black",
-    "description": "Engineered with a high-rise design, these deep black denim jeans feature a tapered leg for sharp, precise tailoring and robust construction. The rich, inky-black denim boasts an unwashed finish, delivering a structured texture with a subtle sheen, while meticulously aligned seams and reinforced rivets ensure durability. Designed to create a sleek, polished silhouette, this pair effortlessly transitions from professional casual settings to dynamic urban wear, offering timeless versatility with a modern edge."
+    "id": "BL009",
+    "name": "Sleeveless Pleated V-Neck Blouse",
+    "image_name": "WOMEN-Blouses_Shirts-id_00000025-05_1_front.jpg",
+    "price": 79.99,
+    "category": "tops",
+    "sub_category": "blouses",
+    "color": "Emerald Green",
+    "description": "This is a sleeveless blouse in a vibrant emerald green color, featuring a deep V-neckline and a front center pleat that adds flow and structure. The lightweight fabric drapes loosely over the torso, offering a sleek and elegant silhouette suitable for both casual and semi-formal occasions."
   },
   {
-    "id": "WOMEN-Denim-id_00005961-02_1_front",
-    "name": "Women's Slim Ripped with Jeans",
-    "image_name": "WOMEN-Denim-id_00005961-02_1_front.jpg",
-    "price": 74.50,
-    "category": "bottoms",
-    "sub_category": "jeans",
-    "color": "Grey with wear",
-    "description": "These slim-fit grey jeans strike the perfect balance between edgy and wearable, with a tapered silhouette that contours the legs for a modern, streamlined look. Crafted from medium-weight grey denim, the fabric features intentional rips and fraying at the knees, paired with strategic fading for a perfectly broken-in feel. The mid-rise waist and precise stitching create a flattering fit, while reinforced seams and durable hardware ensure longevity. The artful distressing and versatile grey hue make these jeans ideal for both laid-back streetwear and polished casual outfits—effortlessly transitioning from daytime cool to nighttime edge."
-  },
-  {
-    "id": "WOMEN-Denim-id_00006608-03_1_front",
-    "name": "Women's Straight-Cut Denim Jeans",
-    "image_name": "WOMEN-Denim-id_00006608-03_1_front.jpg",
-    "price": 69.99,
-    "category": "bottoms",
-    "sub_category": "jeans",
-    "color": "Light blue denim",
-    "description": "Cut in a timeless straight-leg silhouette, these ankle-length jeans deliver a modern yet versatile look with their cropped, slightly raw hemline. The light blue denim showcases subtle distressing—soft fading at the thighs and natural creasing for a lived-in feel—while the clean lines of the straight cut maintain a polished, easy-to-style shape. Thoughtful details like reinforced stitching and minimal abrasion at stress points ensure durability without compromising the jeans' effortless aesthetic. Perfect for pairing with sneakers and tees for casual warmth-weather wear or dressing up with loafers and a linen shirt for a smart-casual ensemble, these straight-cut jeans strike the ideal balance between contemporary edge and everyday wearability."
-  },
-  {
-    "id": "WOMEN-Denim-id_00006672-01_1_front",
-    "name": "Women's Relaxed Straight Denim Jeans",
-    "image_name": "WOMEN-Denim-id_00006672-01_1_front.jpg",
-    "price": 78.00,
-    "category": "bottoms",
-    "sub_category": "jeans",
-    "color": "Light blue denim with wear",
-    "description": "Featuring a relaxed straight-leg design, these light blue denim jeans blend comfort with a classic, easygoing silhouette. The soft, sun-bleached denim showcases a naturally worn-in texture, with subtle fading at the thighs and knees for a lived-in feel. Clean contrast stitching and sturdy metal hardware add structure, while the airy, faded hue keeps the look effortlessly cool. Perfect for laid-back everyday wear or dressed-up casual occasions, these jeans offer a versatile, breezy foundation for any warm-weather wardrobe."
-  },
-  {
-    "id": "WOMEN-Cardigans-id_00007648-02_4_full",
-    "name": "Women's Relaxed Straight Denim Jeans",
-    "image_name": "WOMEN-Cardigans-id_00007648-02_4_full",
-    "price": 78.00,
-    "category": "bottoms",
-    "sub_category": "jeans",
-    "color": "Blue denim with wear",
-    "description": "Cut in a stylish ankle-length crop, these blue denim jeans deliver a fresh, modern twist on timeless denim. The medium-blue fabric features a softly worn-in texture with natural fading and a raw, unfinished hem for an effortlessly cool vibe. Precision stitching and subtle abrasion details enhance the jeans' artisanal appeal, while the versatile shade keeps them wearable season after season. Perfect for breezy warm-weather outfits or on-trend streetwear looks, this cropped design pairs equally well with sneakers or elevated sandals."
+    "id": "BL010",
+    "name": "Elegant Checkered Blouse",
+    "image_name": "WOMEN-Blouses_Shirts-id_00000024-04_1_front.jpg",
+    "price": 84.99,
+    "category": "tops",
+    "sub_category": "blouses",
+    "color": "red, white, black, and grey",
+    "description": "The plaid pattern consists of intersecting horizontal and vertical lines in red, black, white, and some grey, creating a classic checkered look."
   }
 ]
+
