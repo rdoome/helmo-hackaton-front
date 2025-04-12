@@ -94,7 +94,7 @@ export const JEANS_COLLECTION : Product[] = [
   {
     "id": "WOMEN-Cardigans-id_00007648-02_4_full",
     "name": "Women's Relaxed Straight Denim Jeans",
-    "image_name": "WOMEN-Cardigans-id_00007648-02_4_full",
+    "image_name": "WOMEN-Cardigans-id_00007648-02_4_full.jpg",
     "price": 78.00,
     "category": "bottoms",
     "sub_category": "jeans",

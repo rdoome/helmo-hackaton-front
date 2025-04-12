@@ -52,9 +52,9 @@ export const ROMPERS_COLLECTION : Product[] = [
     "description": "This dark blue romper combines a sleek, utility-inspired design with a double-laced top for a refined, feminine touch. Crafted from durable cotton twill, it offers a relaxed, functional cut with clearly defined seams and reinforced stitching at key stress points for long-lasting wear. Subtle utility pockets enhance its practicality, while the breathable fabric ensures comfort throughout the day. The rich dark blue color, paired with the utilitarian style and delicate lacing at the top, makes this romper a versatile choice for both active daytime engagements and casual outings, blending style and function effortlessly."
   },
   {
-    "id": "WOMEN-Rompers_Jumpsuits-id_00000398-01_1_additional",
-    "name": "Women's bright red romper",
-    "image_name": "WOMEN-Rompers_Jumpsuits-id_00000398-01_1_additional.jpg",
+    "id": "WOMEN-Rompers_Jumpsuits-id_00000398-01_1_front",
+    "name": "Women's Bright Red Romper",
+    "image_name": "WOMEN-Rompers_Jumpsuits-id_00000398-01_1_front.jpg",
     "price": 110.00,
     "category": "romper",
     "sub_category": "romper",
@@ -62,9 +62,9 @@ export const ROMPERS_COLLECTION : Product[] = [
     "description": "This off-shoulder jumpsuit boasts a modern design with a draped neckline and a fitted waist that gracefully transitions into a relaxed, wide-legged cut. The high-quality fabric, with a slight texture, features visible, flat-lock seams and minimalistic fastening details, adding to its sophisticated appeal. The vibrant red color, paired with a brown belt that cinches the waist, creates a striking contrast that enhances the silhouette. This stylish combination makes the jumpsuit perfect for upscale casual events or artistic evening occasions, offering a refined yet effortless look."
   },
   {
-    "id": "WOMEN-Rompers_Jumpsuits-id_00000419-01_7_front",
-    "name": "Women's jean romper",
-    "image_name": "WOMEN-Rompers_Jumpsuits-id_00000419-01_7_front.jpg",
+    "id": "WOMEN-Rompers_Jumpsuits-id_00000419-01_7_additional",
+    "name": "Women's Jeans Romper",
+    "image_name": "WOMEN-Rompers_Jumpsuits-id_00000419-01_7_additional.jpg",
     "price": 105.00,
     "category": "romper",
     "sub_category": "romper",

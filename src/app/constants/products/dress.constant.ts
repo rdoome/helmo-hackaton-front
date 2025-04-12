@@ -22,9 +22,9 @@ export const DRESSES_COLLECTION : Product[] = [
     "description": "This fresh white dress is adorned with bold red motifs, creating a vibrant yet timeless look. The crisp white base keeps the design clean and versatile, while the red accents add a playful, eye-catching pop—perfect for everything from summer outings to evening events. The silhouette is effortlessly chic, offering a flattering fit that balances elegance with a touch of spirited charm."
   },
   {
-    "id": "WOMEN-Dresses-id_00000021-05_1_front",
+    "id": "WOMEN-Dresses-id_00000021-04_1_front",
     "name": "Women's Maxi Wrap Dress",
-    "image_name": "WOMEN-Dresses-id_00000021-05_1_front.jpg",
+    "image_name": "WOMEN-Dresses-id_00000021-04_1_front.jpg",
     "price": 119.00,
     "category": "dresses",
     "sub_category": "wrap dress",
