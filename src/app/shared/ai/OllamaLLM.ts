@@ -49,7 +49,7 @@ export class OllamaLLM {
         this._model = model;
     }
 
-    public async generate(prompt: string) {
+    public async generate(prompt: string): Promise<string> {
         this.addUserMessage(prompt);
 
         const completionRequest: OllamaLLMCompletionRequest = {
