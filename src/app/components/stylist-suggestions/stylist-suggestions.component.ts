@@ -1,5 +1,14 @@
-import { Component } from '@angular/core';
-import { CardComponent } from '../card/card.component';
+import {Component, Injectable} from '@angular/core';
+import {CardComponent} from '../card/card.component';
+import {PersonalStylist} from '../../shared/ai/PersonalStylist';
+
+export class SuggestionsList {
+  suggestions: SuggestionItem[];
+
+  constructor(suggestions: SuggestionItem[]) {
+    this.suggestions = suggestions;
+  }
+}
 
 export interface SuggestionItem {
   id: string;
@@ -15,6 +24,17 @@ export interface SuggestionItem {
   templateUrl: './stylist-suggestions.component.html',
   styleUrls: ['./stylist-suggestions.component.css'],
 })
+
 export class StylistSuggestionsComponent {
-  suggestions: SuggestionItem[] = [];
+  suggestions: SuggestionsList = new SuggestionsList([]);
+
+  constructor(
+    stylist: PersonalStylist
+  ) {
+    stylist.subscribeToSuggestionUpdates(this.updateSuggestions);
+  }
+
+  private updateSuggestions(list: SuggestionsList) {
+    this.suggestions = list;
+  }
 }

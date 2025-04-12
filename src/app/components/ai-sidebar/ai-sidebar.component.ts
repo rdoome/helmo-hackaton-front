@@ -1,4 +1,5 @@
 import {Component, ElementRef} from '@angular/core';
+import {PersonalStylist} from '../../shared/ai/PersonalStylist';
 
 @Component({
   selector: 'ai-sidebar',
@@ -7,8 +8,12 @@ import {Component, ElementRef} from '@angular/core';
   styleUrl: './ai-sidebar.component.css'
 })
 export class AiSidebarComponent {
+  private readonly _stylist;
 
-  constructor(private elRef:ElementRef) {}
+  constructor(private elRef:ElementRef, stylist: PersonalStylist) {
+    stylist.subscribeToMessages(this.addMessage);
+    this._stylist = stylist;
+  }
 
   submitPrompt() {
     const $input = <HTMLInputElement>this.elRef.nativeElement.querySelector("#prompt");
@@ -16,6 +21,7 @@ export class AiSidebarComponent {
     const prompt = $input.innerText;
     $input.innerText = "";
     this.addMessage(prompt);
+    this._stylist.respondToUserMessage(prompt);
   }
 
   keyDown($event: KeyboardEvent) {
