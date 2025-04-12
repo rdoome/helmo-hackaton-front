@@ -1,6 +1,6 @@
 import {Product} from '../../../domain/Product';
 
-export const JEANS_COLLECTION : Product[] = [
+export const BLOUSES_COLLECTION : Product[] = [
   {
     "id": "WOMEN-Denim-id_00000274-01_1_front",
     "name": "Women's Classic Slim Beige Jeans",
