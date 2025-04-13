@@ -5,6 +5,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { CartService } from '../../store/cart/cart.store';
 import { CommonModule } from '@angular/common';
 import { PRODUCTS } from '../../constants/data';
+import {EventBusService} from '../../services/eventBus.service';
+
 
 @Component({
   selector: 'app-card',
@@ -21,12 +23,15 @@ export class CardComponent {
   private cartService = inject(CartService);
   products = PRODUCTS;
 
+  constructor(private eventBus: EventBusService) {}
+
   faCartPlus = faCartPlus;
 
   addToCart() {
     const product = this.products.find(product => product.id === this.id());
     if (product) {
       this.cartService.addProductToCart(product);
+      this.eventBus.emit('NEW_MESSAGE', "Je viens d'ajouter" + product.name + "(" + product.id + ")" + " a mon panier, peux-tu me conseiller un article s'accordant avec ce dernier.");
     }
   }
 }
