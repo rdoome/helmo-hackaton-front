@@ -47,7 +47,7 @@ export class ChatComponent implements OnInit {
     // First message from the AI
     const initialMessage: ChatMessage = {
       role: 'model',
-      parts: [{ text: 'Hello! How can I help you today?' }]
+      parts: [{ text: 'Bonjour, je suis votre assistant Style, votre conseiller en mode virtuel dédié à sublimer votre élégance, en quoi puis-je vous être utile? ' }]
     };
 
     // Add initial message to chat (this will be replaced with the actual response)

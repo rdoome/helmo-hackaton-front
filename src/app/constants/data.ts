@@ -1,5 +1,5 @@
 export const data =  `{
-    "id": "BL001",
+    "id": "WOMEN-Blouses_Shirts-id_00000380-04_1_front.jpg",
     "name": "Elegant Blouse",
     "image_name": "WOMEN-Blouses_Shirts-id_00000380-04_1_front.jpg",
     "price": 89.99,
@@ -9,7 +9,7 @@ export const data =  `{
     "description": "A refined blouse crafted from high-quality silk in a vibrant orange shade. The delicate fabric and graceful drape make it an ideal choice for formal occasions and upscale events. The bold orange hue pairs beautifully with metallic accessories and neutral tones, adding a pop of color to your ensemble. The bottom of the blouse is elegantly finished with intertwined rope detailing, offering a unique and sophisticated twist. Style it with tailored trousers or a pencil skirt for a look that exudes both timeless elegance and modern luxury."
   },
   {
-    "id": "BL002",
+    "id": "WOMEN-Blouses_Shirts-id_00000355-01_1_front.jpg",
     "name": "Stripe Blouse",
     "image_name": "WOMEN-Blouses_Shirts-id_00000355-01_1_front.jpg",
     "price": 64.99,
@@ -19,7 +19,7 @@ export const data =  `{
     "description": "This casual blouse features bold blue and black stripes accented with unique motifs, perfect for adding a touch of character to your everyday wear. Made from breathable cotton fabric, it ensures both comfort and durability. The dynamic stripe pattern with stylish motifs creates a modern, relaxed look. Pair it with denim or light chinos, and finish with minimalist silver accessories for a fresh, contemporary appearance."
   },
   {
-    "id": "BL003",
+    "id": "WOMEN-Blouses_Shirts-id_00000243-01_1_front.jpg",
     "name": "Modern Stylish Blouse",
     "image_name": "WOMEN-Blouses_Shirts-id_00000243-01_1_front.jpg",
     "price": 74.99,
@@ -29,7 +29,7 @@ export const data =  `{
     "description": "A contemporary blouse featuring a crisp white background adorned with a delicate floral pattern in soft brown and blue tones. The lightweight blend drapes beautifully, offering a perfect balance of femininity and modern charm. Ideal for both professional settings and casual outings, the neutral base pairs effortlessly with muted neutrals or contrasting dark bottoms. Accent with gold or rose-gold jewelry for an effortlessly chic look."
   },
   {
-    "id": "BL004",
+    "id": "WOMEN-Blouses_Shirts-id_00000179-02_1_front.jpg",
     "name": "Pink floral Blouse",
     "image_name": "WOMEN-Blouses_Shirts-id_00000179-02_1_front.jpg",
     "price": 69.99,
@@ -39,7 +39,7 @@ export const data =  `{
     "description": "Designed for a polished office look, this blouse features a structured cut in a soft red shade adorned with delicate pink floral patterns. The fabric blend maintains its shape throughout the day while offering a comfortable fit. The gentle red hue with floral accents creates a sophisticated yet refreshing backdrop for statement accessories or a vibrant scarf. Style it with tailored skirts or trousers for a look that effortlessly transitions from boardroom to after-hours."
   },
   {
-    "id": "BL005",
+    "id": "WOMEN-Blouses_Shirts-id_00000172-03_1_front.jpg",
     "name": "Marine blue Blouse",
     "image_name": "WOMEN-Blouses_Shirts-id_00000172-03_1_front.jpg",
     "price": 59.99,
@@ -49,7 +49,7 @@ export const data =  `{
     "description": "A refined blouse crafted from high-quality silk in a sophisticated marine blue shade. The delicate fabric and graceful drape make it an ideal choice for formal occasions and upscale events. The rich marine blue hue pairs effortlessly with metallic accessories and deep neutral tones. Best worn with tailored trousers or a pencil skirt, this blouse radiates timeless elegance and understated luxury."
   },
   {
-    "id": "BL006",
+    "id": "WOMEN-Blouses_Shirts-id_00000171-01_1_front.jpg",
     "name": "Peach Crochet Top",
     "image_name": "WOMEN-Blouses_Shirts-id_00000171-01_1_front.jpg",
     "price": 54.99,
@@ -59,7 +59,7 @@ export const data =  `{
     "description": "This is a three-quarter sleeve blouse in a delicate peach color.  The defining feature is the intricate crocheted detailing. This crochet trim is not just decorative; it creates a layered effect with cutouts running along the neckline, sleeves, and hem."
   },
   {
-    "id": "BL007",
+    "id": "WOMEN-Blouses_Shirts-id_00000057-03_1_front.jpg",
     "name": "Paisley Print Peasant Blouse",
     "image_name": "WOMEN-Blouses_Shirts-id_00000057-03_1_front.jpg",
     "price": 82.99,
@@ -69,7 +69,7 @@ export const data =  `{
     "description": "This is a three-quarter sleeve peasant-style blouse featuring a delicate cream background adorned with a scattered dark purple floral pattern. The hemline is accented by a band of repeating paisley designs in the same purple hue. "
   },
   {
-    "id": "BL008",
+    "id": "WOMEN-Blouses_Shirts-id_00000031-02_1_front.jpg",
     "name": "Lace Sleeve Sheer Panel Blouse",
     "image_name": "WOMEN-Blouses_Shirts-id_00000031-02_1_front.jpg",
     "price": 94.99,
@@ -79,7 +79,7 @@ export const data =  `{
     "description": "This is a white sleeveless blouse featuring delicate lace cap sleeves and a sheer panel across the upper chest and shoulders. The lightweight fabric offers a soft, airy feel, while the lace adds a feminine, textured detail. It combines elegance and comfort, making it suitable for both casual and dressy occasions."
   },
   {
-    "id": "BL009",
+    "id": "WOMEN-Blouses_Shirts-id_00000025-05_1_front.jpg",
     "name": "Sleeveless Pleated V-Neck Blouse",
     "image_name": "WOMEN-Blouses_Shirts-id_00000025-05_1_front.jpg",
     "price": 79.99,
@@ -89,7 +89,7 @@ export const data =  `{
     "description": "This is a sleeveless blouse in a vibrant emerald green color, featuring a deep V-neckline and a front center pleat that adds flow and structure. The lightweight fabric drapes loosely over the torso, offering a sleek and elegant silhouette suitable for both casual and semi-formal occasions."
   },
   {
-    "id": "BL010",
+    "id": "WOMEN-Blouses_Shirts-id_00000024-04_1_front.jpg",
     "name": "Elegant Checkered Blouse",
     "image_name": "WOMEN-Blouses_Shirts-id_00000024-04_1_front.jpg",
     "price": 84.99,
@@ -100,7 +100,7 @@ export const data =  `{
   }
 ]
   {
-    "id": "CD001",
+    "id": "WOMEN-Cardigans-id_00000425-06_1_front.jpg",
     "name": "Lightweight Knit Cardigan",
     "image_name": "WOMEN-Cardigans-id_00000425-06_1_front.jpg",
     "price": 69.99,
@@ -110,7 +110,7 @@ export const data =  `{
     "description": "This lightweight knit cardigan features a soft, violet pink tone that appears natural and refined. Its fine-knit texture and relaxed silhouette make it ideal for layering over casual or office outfits. The subtle pink color enhances versatility, allowing it to be paired with both dark denim and brightly colored tops. Complement the look with simple silver or pearl accessories to maintain an understated elegance."
   },
   {
-    "id": "CD002",
+    "id": "WOMEN-Cardigans-id_00000425-07_1_front.jpg",
     "name": "Classic Open Cardigan",
     "image_name": "WOMEN-Cardigans-id_00000425-07_1_front.jpg",
     "price": 74.99,
@@ -120,7 +120,7 @@ export const data =  `{
     "description": "This classic open-front cardigan displays an earthy greenish cyan hue that radiates warmth and timeless appeal. The smooth, soft knit and versatile cut allow it to serve as a perfect layering piece for transitional weather. Pair this cardigan with simple jewelry and structured pieces to create a balanced, effortless ensemble that works from office hours to evening gatherings."
   },
   {
-    "id": "CD003",
+    "id": "WOMEN-Cardigans-id_00000450-03_1_front.jpg",
     "name": "Yellow Knit Cardigan",
     "image_name": "WOMEN-Cardigans-id_00000450-03_1_front.jpg",
     "price": 79.99,
@@ -130,7 +130,7 @@ export const data =  `{
     "description": "This classic-fit knit cardigan comes in a deep yellow, offering a contemporary and bold look. The rich yellow hue is perfect for adding contrast to lighter outfits and pairs effortlessly with crisp white or soft pastel pieces. Its tailored fit and timeless design provide both comfort and a polished, versatile silhouette, making it an elegant layering choice for any wardrobe."
   },
   {
-    "id": "CD004",
+    "id": "WOMEN-Cardigans-id_00000450-05_1_front.jpg",
     "name": "Red Knit Cardigan",
     "image_name": "WOMEN-Cardigans-id_00000450-05_1_front.jpg",
     "price": 84.99,
@@ -140,7 +140,7 @@ export const data =  `{
     "description": "This slim-fit knit cardigan comes in a deep red, delivering a modern and vibrant look. The rich red hue is perfect for adding warmth to neutral outfits and pairs beautifully with crisp white, soft creams, or cool-toned pieces. Its tailored silhouette offers a polished yet comfortable fit, making it a versatile layering piece for both casual and refined styles."
   },
   {
-    "id": "CD005",
+    "id": "WOMEN-Cardigans-id_00000495-02_1_front.jpg",
     "name": "Relaxed Fit Cardigan",
     "image_name": "WOMEN-Cardigans-id_00000495-02_1_front.jpg",
     "price": 69.99,
@@ -150,7 +150,7 @@ export const data =  `{
     "description": "This relaxed fit cardigan comes in a soft, airy light grey that exudes understated sophistication. The cool, neutral tone offers a clean and modern aesthetic, making it a versatile piece for both casual and polished looks. Its easygoing cut and cozy knit fabric ensure effortless comfort, while the muted grey pairs seamlessly with everything from dark denim to crisp white layers for a refined, minimalist style."
   },
   {
-    "id": "CD006",
+    "id": "WOMEN-Cardigans-id_00000804-03_1_front.jpg",
     "name": "Elegant Textured Cardigan",
     "image_name": "WOMEN-Cardigans-id_00000804-03_1_front.jpg",
     "price": 89.99,
@@ -160,7 +160,7 @@ export const data =  `{
     "description": "This vibrant cardigan shines in a bold, sunlit yellowish-orange hue, radiating energy and warmth. The textured knit and subtle ribbing detail add depth to the garment, making it a standout piece for brightening up any look. The lively, citrus-inspired tone commands attention while remaining surprisingly versatile—pair it with crisp whites, deep navies, or earthy neutrals for a fresh, modern contrast. Perfect for adding a pop of optimism to your wardrobe."
   },
   {
-    "id": "CD007",
+    "id": "WOMEN-Cardigans-id_00000874-02_1_front.jpg",
     "name": "Black Charcoal Cardigan",
     "image_name": "WOMEN-Cardigans-id_00000874-02_1_front.jpg",
     "price": 64.99,
@@ -170,7 +170,7 @@ export const data =  `{
     "description": "This cardigan exudes timeless sophistication in a deep charcoal black, offering a sleek and versatile foundation for any ensemble. Its cozy knit fabric and tailored silhouette strike the perfect balance between structure and comfort, making it ideal for layering over office wear or dressing down with casual pieces. The rich, near-black hue provides a refined contrast against both light neutrals and bold colors, while its understated elegance pairs effortlessly with minimalist silver or gold accessories for a polished, modern edge."
   },
   {
-    "id": "CD008",
+    "id": "WOMEN-Cardigans-id_00000895-02_1_front.jpg",
     "name": "Essential Cozy Cardigan",
     "image_name": "WOMEN-Cardigans-id_00000895-02_1_front.jpg",
     "price": 59.99,
@@ -180,7 +180,7 @@ export const data =  `{
     "description": "This dreamy cardigan floats in a soft light pink hue, offering a whisper of romance and effortless charm. Its buttery-soft knit and relaxed silhouette create the perfect lightweight layer for everything from brunch dates to breezy evenings. The delicate blush tone acts as a sweet neutral—pair it with crisp whites for a fresh take on femininity, rich chocolates for subtle contrast, or denim for casual-cool appeal. Accent with rose gold jewelry or a woven straw bag to lean into its tender, modern aesthetic."
   },
   {
-    "id": "CD009",
+    "id": "WOMEN-Cardigans-id_00001415-06_1_front.jpg",
     "name": "Gey Knit Cardigan",
     "image_name": "WOMEN-Cardigans-id_00001415-06_1_front.jpg",
     "price": 89.99,
@@ -191,7 +191,7 @@ export const data =  `{
   }
 ]
   {
-    "id": "WOMEN-Dresses-id_00000002-02_1_front",
+    "id": "WOMEN-Dresses-id_00000002-02_1_front.jpg",
     "name": "Women's Black with Pink Flowers Dress",
     "image_name": "WOMEN-Dresses-id_00000002-02_1_front.jpg",
     "price": 89.99,
@@ -201,7 +201,7 @@ export const data =  `{
     "description": "This elegant black dress features delicate pink floral detailing, creating a striking contrast that’s both feminine and timeless. The dark base ensures versatility, while the soft pink blossoms add a romantic, fresh touch—perfect for both daytime charm and evening sophistication. The fit is tailored yet comfortable, making it a flattering choice for various occasions."
   },
   {
-    "id": "WOMEN-Dresses-id_00000009-02_1_front",
+    "id": "WOMEN-Dresses-id_00000009-02_1_front.jpg",
     "name": "Women's Motifs Dress",
     "image_name": "WOMEN-Dresses-id_00000009-02_1_front.jpg",
     "price": 109.50,
@@ -211,7 +211,7 @@ export const data =  `{
     "description": "This fresh white dress is adorned with bold red motifs, creating a vibrant yet timeless look. The crisp white base keeps the design clean and versatile, while the red accents add a playful, eye-catching pop—perfect for everything from summer outings to evening events. The silhouette is effortlessly chic, offering a flattering fit that balances elegance with a touch of spirited charm."
   },
   {
-    "id": "WOMEN-Dresses-id_00000021-04_1_front",
+    "id": "WOMEN-Dresses-id_00000021-04_1_front.jpg",
     "name": "Women's Maxi Wrap Dress",
     "image_name": "WOMEN-Dresses-id_00000021-04_1_front.jpg",
     "price": 119.00,
@@ -221,7 +221,7 @@ export const data =  `{
     "description": "This cream white maxi wrap dress embodies effortless elegance with its fluid, cascading silhouette, beautifully defined by a self-tie waist. Crafted from a softly textured, medium-weight knit, the fabric drapes luxuriously, creating subtle dimension and movement. Delicate stitching along the wrap closure and artful gathering at the waist highlight its thoughtful craftsmanship. The timeless cream hue exudes understated sophistication, making it a versatile piece that transitions seamlessly from sunlit daytime occasions to refined evening events—always moving as gracefully as the wearer."
   },
   {
-    "id": "WOMEN-Dresses-id_00000021-05_1_front",
+    "id": "WOMEN-Dresses-id_00000021-05_1_front.jpg",
     "name": "Women's Maxi Wrap Dress",
     "image_name": "WOMEN-Dresses-id_00000021-05_1_front.jpg",
     "price": 119.00,
@@ -231,7 +231,7 @@ export const data =  `{
     "description": "This dark red maxi wrap dress exudes bold sophistication with its fluid, cascading silhouette, elegantly cinched by a self-tie waist. Cut from a sumptuous, medium-weight knit with a soft texture, the fabric drapes luxuriously, creating depth and movement with every step. Meticulous stitching along the wrap closure and subtle gathering at the waist showcase refined craftsmanship. The rich, wine-inspired hue radiates timeless glamour, effortlessly transitioning from polished daytime ensembles to sultry evening wear—ensuring the wearer commands attention with understated allure."
   },
   {
-    "id": "WOMEN-Dresses-id_00000027-01_1_front",
+    "id": "WOMEN-Dresses-id_00000027-01_1_front.jpg",
     "name": "Women's Fit-and-Flare Dress",
     "image_name": "WOMEN-Dresses-id_00000027-01_1_front.jpg",
     "price": 95.00,
