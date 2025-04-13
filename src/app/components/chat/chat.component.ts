@@ -17,7 +17,7 @@ export class ChatComponent implements OnInit {
   userInput = '';
   isLoading = false;
   geminiService: GeminiService = inject(GeminiService);
-  
+
   // System prompt for Gemini
   systemPrompt = initialPrompt.concat(data);
 
@@ -26,24 +26,31 @@ export class ChatComponent implements OnInit {
     this.sendInitialMessage();
   }
 
+  toggleDimension()
+  {
+    const element = document.getElementById("chat-container");
+    if (!element) return; // ID not found, do nothing
+    element.classList.toggle("chat-container--extended");
+  }
+
   sendInitialMessage() {
     this.isLoading = true;
-    
+
     // First message from the AI
     const initialMessage: ChatMessage = {
       role: 'model',
       parts: [{ text: 'Hello! How can I help you today?' }]
     };
-    
+
     // Add initial message to chat (this will be replaced with the actual response)
     this.messages.push(initialMessage);
-    
+
     // Send empty message to get first response with system prompt
     this.geminiService.generateContent([], this.systemPrompt).subscribe({
       next: (response) => {
 
 
-        
+
 
         // Replace placeholder with actual response
         if (response.candidates && response.candidates.length > 0) {
@@ -72,7 +79,7 @@ export class ChatComponent implements OnInit {
       parts: [{ text: this.userInput }]
     };
     this.messages.push(userMessage);
-    
+
     // Clear input and set loading state
     const userInputCopy = this.userInput;
     this.userInput = '';
@@ -80,7 +87,7 @@ export class ChatComponent implements OnInit {
 
     // Prepare conversation history
     const conversationHistory = [...this.messages];
-    
+
     // Get response from Gemini
     this.geminiService.generateContent(conversationHistory, this.systemPrompt).subscribe({
       next: (response) => {

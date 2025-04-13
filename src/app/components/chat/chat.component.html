@@ -1,14 +1,15 @@
 
-<div class="chat-container">
+<div class="chat-container" id="chat-container">
+  <button class="toggle-chat" (click)="toggleDimension()"></button>
     <div class="chat-messages">
-      <div *ngFor="let message of messages" 
+      <div *ngFor="let message of messages"
            [ngClass]="{'user-message': message.role === 'user', 'ai-message': message.role === 'model'}">
         <div class="message-content">
           <strong>{{ message.role === 'user' ? 'You' : 'AI' }}:</strong>
           <p>{{ message.parts[0].text }}</p>
         </div>
       </div>
-      
+
       <div *ngIf="isLoading" class="ai-message loading">
         <div class="typing-indicator">
           <span></span>
@@ -17,12 +18,12 @@
         </div>
       </div>
     </div>
-    
+
     <div class="chat-input">
-      <input 
-        type="text" 
-        [(ngModel)]="userInput" 
-        placeholder="Type your message..." 
+      <input
+        type="text"
+        [(ngModel)]="userInput"
+        placeholder="Type your message..."
         (keyup.enter)="sendMessage()"
         [disabled]="isLoading"
       >
