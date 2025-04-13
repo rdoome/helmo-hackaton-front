@@ -6,7 +6,9 @@
            [ngClass]="{'user-message': message.role === 'user', 'ai-message': message.role === 'model'}">
         <div class="message-content">
           <strong>{{ message.role === 'user' ? 'You' : 'AI' }}:</strong>
-          <p>{{ message.parts[0].text }}</p>
+          <div *ngIf="message.role === 'model'" [innerHTML]="sanitize(message.parts[0].text)"></div>
+          <!-- Pour les messages utilisateur, on affiche le texte en toute sécurité -->
+          <p *ngIf="message.role !== 'model'">{{ message.parts[0].text }}</p>
         </div>
       </div>
 

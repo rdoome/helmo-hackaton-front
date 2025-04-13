@@ -5,6 +5,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { initialPrompt } from '../../constants/initial-prompt';
 import { data } from '../../constants/data';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { processText } from '../../utils/image-extractor';
 
 @Component({
   selector: 'app-chat',
@@ -20,6 +22,12 @@ export class ChatComponent implements OnInit {
 
   // System prompt for Gemini
   systemPrompt = initialPrompt.concat(data);
+
+  constructor(private sanitizer: DomSanitizer) {}
+
+  sanitize(html: string): SafeHtml {
+    return this.sanitizer.bypassSecurityTrustHtml(html);
+  }
 
   ngOnInit() {
     // Send initial message when component loads
@@ -48,10 +56,6 @@ export class ChatComponent implements OnInit {
     // Send empty message to get first response with system prompt
     this.geminiService.generateContent([], this.systemPrompt).subscribe({
       next: (response) => {
-
-
-
-
         // Replace placeholder with actual response
         if (response.candidates && response.candidates.length > 0) {
           this.messages[0] = {
@@ -91,6 +95,21 @@ export class ChatComponent implements OnInit {
     // Get response from Gemini
     this.geminiService.generateContent(conversationHistory, this.systemPrompt).subscribe({
       next: (response) => {
+
+        const { updatedText, images }: { updatedText: string; images: string[] } =
+        processText(response.candidates[0].content.parts[0].text);
+      
+        const imageTags = images.map((id, index) => {
+          return `<div style="margin-right: 15px; display:block"><img src="../../../../images/products/${id}" width="100px" height="auto" alt="Image ${index + 1}"></div>`;
+        });
+        
+        const finalText = updatedText.replace(/%\*_([0-9]+)%\*_/g, (match, numberStr) => {
+          const index = parseInt(numberStr, 10);
+          return index >= 0 && index < imageTags.length ? imageTags[index] : "";
+        });
+        
+        response.candidates[0].content.parts[0].text = finalText;
+
         if (response.candidates && response.candidates.length > 0) {
           const aiResponse: ChatMessage = {
             role: 'model',
