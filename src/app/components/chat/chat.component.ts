@@ -100,7 +100,7 @@ export class ChatComponent implements OnInit {
         processText(response.candidates[0].content.parts[0].text);
       
         const imageTags = images.map((id, index) => {
-          return `<div style="margin-right: 15px; display:block"><img src="../../../../images/products/${id}" width="100px" height="auto" alt="Image ${index + 1}"></div>`;
+          return `<div style="margin-right: 15px; margin-y:20px; display:block"><img src="../../../../images/products/${id}" width="100px" height="auto" alt="Image ${index + 1}"></div>`;
         });
         
         const finalText = updatedText.replace(/%\*_([0-9]+)%\*_/g, (match, numberStr) => {
