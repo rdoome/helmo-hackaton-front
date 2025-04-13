@@ -2,7 +2,7 @@ import {Product} from '../../../domain/Product';
 
 export const JACKET_COLLECTION : Product[] = [
   {
-    "id": "WOMEN-Jackets_Coats-id_00000013-03_1_front",
+    "id": "WOMEN-Jackets_Coats-id_00000013-03_1_front.jpg",
     "name": "Women's Deep Blue Parka",
     "image_name": "WOMEN-Jackets_Coats-id_00000013-03_1_front.jpg",
     "price": 129.99,
@@ -12,7 +12,7 @@ export const JACKET_COLLECTION : Product[] = [
     "description": "This dark blue parka is crafted from a durable, water-resistant fabric with a lightweight yet insulating structure, ideal for colder weather. It features a moderately relaxed, slightly elongated fit with a high collar and a hood lined with soft faux fur for added warmth and comfort. Ribbed cuffs and a drawstring hem help to seal in heat. In addition to the central zip closure, the front is equipped with two rows of toggle fastenings for extra protection against the elements. Finished with meticulously stitched seams, this parka is a functional and stylish choice for winter and everyday urban wear."
   },
   {
-    "id": "WOMEN-Jackets_Coats-id_00000054-01_1_front",
+    "id": "WOMEN-Jackets_Coats-id_00000054-01_1_front.jpg",
     "name": "Women's Black Blazer Coat",
     "image_name": "WOMEN-Jackets_Coats-id_00000054-01_1_front.jpg",
     "price": 179.50,
@@ -22,7 +22,7 @@ export const JACKET_COLLECTION : Product[] = [
     "description": "This black blazer is crafted from a mid-weight, tightly woven cotton blend that provides a structured, refined silhouette. Defined by clean, sharp tailoring, it features reinforced lapels, a tailored waist, and precise seam detailing throughout. The smooth, uniform texture with subtle tonal depth adds to its sophisticated appeal, making it a versatile choice for both professional and formal occasions, especially in moderate weather conditions."
   },
   {
-    "id": "WOMEN-Jackets_Coats-id_00000069-04_1_front",
+    "id": "WOMEN-Jackets_Coats-id_00000069-04_1_front.jpg",
     "name": "Navy Blue Blazer Coat",
     "image_name": "WOMEN-Jackets_Coats-id_00000069-04_1_front.jpg",
     "price": 159.75,
@@ -32,7 +32,7 @@ export const JACKET_COLLECTION : Product[] = [
     "description": "Crafted from a high-quality wool blend, this navy blue blazer is tailored to deliver a slim, refined silhouette. It features a single-breasted front, notch lapels, and detailed stitching along the edges for a polished finish. The fabric’s soft, brushed texture enhances its natural elegance, making it well-suited for cooler seasons and ideal for both formal and semi-formal settings."
   },
   {
-    "id": "WOMEN-Jackets_Coats-id_00000116-01_1_front",
+    "id": "WOMEN-Jackets_Coats-id_00000116-01_1_front.jpg",
     "name": "Women's Grey Hoodless Jacket",
     "image_name": "WOMEN-Jackets_Coats-id_00000116-01_1_front.jpg",
     "price": 149.99,
@@ -42,7 +42,7 @@ export const JACKET_COLLECTION : Product[] = [
     "description": "This grey jacket features a relaxed, utilitarian fit with a slightly extended silhouette tailored for cold weather. Crafted from a water-repellent fabric and insulated with a warm lining, it offers reliable protection without the bulk. Designed without a hood for a cleaner look, it includes multiple utility pockets, a drawstring waist, and reinforced seams. Functional detailing and durable construction make it a dependable choice for everyday casual wear in harsh conditions."
   },
   {
-    "id": "WOMEN-Jackets_Coats-id_00000153-02_1_front",
+    "id": "WOMEN-Jackets_Coats-id_00000153-02_1_front.jpg",
     "name": "Women's White Sleeveless Faux Fur Jacket",
     "image_name": "WOMEN-Jackets_Coats-id_00000153-02_1_front.jpg",
     "price": 189.00,
@@ -52,7 +52,7 @@ export const JACKET_COLLECTION : Product[] = [
     "description": "This sleeveless white jacket is crafted from luxurious faux fur, offering a soft and plush texture that provides both style and warmth. It features a sleek, fitted silhouette with minimalistic design details, including a smooth front closure and reinforced stitching for durability. The rich, uniform texture of the faux fur adds a modern touch, making it a versatile piece that works seamlessly in both edgy casual and elevated smart-casual settings."
   },
   {
-    "id": "WOMEN-Jackets_Coats-id_00000187-04_1_front",
+    "id": "WOMEN-Jackets_Coats-id_00000187-04_1_front.jpg",
     "name": "Women's Dark Blue Blazer",
     "image_name": "WOMEN-Jackets_Coats-id_00000187-04_1_front.jpg",
     "price": 139.50,
@@ -62,7 +62,7 @@ export const JACKET_COLLECTION : Product[] = [
     "description": "Featuring a tailored, slightly relaxed fit, this dark blue blazer is crafted from high-quality fabric for a refined look. It showcases subtle texture variations with contrasting stitching and sleek metal button closures. Reinforced lapels and clean seam lines ensure durability, making it a versatile option for both casual and semi-formal layered wear during mild to cooler seasons."
   },
   {
-    "id": "WOMEN-Jackets_Coats-id_00000187-05_1_front",
+    "id": "WOMEN-Jackets_Coats-id_00000187-05_1_front.jpg",
     "name": "Women's Brown Tailored Blazer",
     "image_name": "WOMEN-Jackets_Coats-id_00000187-05_1_front.jpg",
     "price": 169.75,
@@ -72,7 +72,7 @@ export const JACKET_COLLECTION : Product[] = [
     "description": "Featuring a tailored, slightly relaxed fit, this brown blazer is crafted from high-quality fabric for a sophisticated and timeless look. It showcases subtle texture variations with contrasting stitching and sleek metal button closures. Reinforced lapels and clean seam lines ensure durability, making it a versatile option for both casual and semi-formal layered wear during mild to cooler seasons."
   },
   {
-    "id": "WOMEN-Jackets_Coats-id_00000187-06_1_front",
+    "id": "WOMEN-Jackets_Coats-id_00000187-06_1_front.jpg",
     "name": "Women's Beige Blazer Puffer Jacket",
     "image_name": "WOMEN-Jackets_Coats-id_00000187-06_1_front.jpg",
     "price": 199.99,
@@ -82,7 +82,7 @@ export const JACKET_COLLECTION : Product[] = [
     "description": "Featuring a tailored, slightly relaxed fit, this beige blazer is crafted from high-quality fabric for a sophisticated and versatile look. It showcases subtle texture variations with contrasting stitching and sleek metal button closures. Reinforced lapels and clean seam lines ensure durability, making it an ideal option for both casual and semi-formal layered wear during mild to cooler seasons."
   },
   {
-    "id": "WOMEN-Jackets_Coats-id_00000187-10_7_additional",
+    "id": "WOMEN-Jackets_Coats-id_00000187-10_7_additional.jpg",
     "name": "Women's Velvet Blazer Jacket",
     "image_name": "WOMEN-Jackets_Coats-id_00000187-10_7_additional.jpg",
     "price": 159.00,
@@ -92,7 +92,7 @@ export const JACKET_COLLECTION : Product[] = [
     "description": "Featuring a tailored, slightly relaxed fit, this velvet blazer exudes luxury and sophistication. The rich texture of the velvet is complemented by subtle texture variations, contrasting stitching, and sleek metal button closures. Reinforced lapels and clean seam lines ensure durability, making it a perfect choice for both casual and semi-formal layered wear during mild to cooler seasons."
   },
   {
-    "id": "WOMEN-Jackets_Coats-id_00000298-02_1_front",
+    "id": "WOMEN-Jackets_Coats-id_00000298-02_1_front.jpg",
     "name": "Women's Black Leather Slim-Fit Jacket",
     "image_name": "WOMEN-Jackets_Coats-id_00000298-02_1_front.jpg",
     "price": 219.50,

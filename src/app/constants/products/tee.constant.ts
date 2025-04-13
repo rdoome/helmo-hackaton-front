@@ -2,7 +2,7 @@ import {Product} from '../../../domain/Product';
 
 export const TEE_COLLECTION : Product[] = [
   {
-    "id": "WOMEN-Graphic_Tees-id_00000279-01_7_additional",
+    "id": "WOMEN-Graphic_Tees-id_00000279-01_7_additional.jpg",
     "name": "Women's Vintage-Inspired Retro Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00000279-01_7_additional.jpg",
     "price": 29.99,
@@ -13,7 +13,7 @@ export const TEE_COLLECTION : Product[] = [
       " Pair it with denim jeans, a casual jacket, or high-top sneakers for a simple yet stylish look."
   },
   {
-    "id": "WOMEN-Graphic_Tees-id_00000769-01_7_additional",
+    "id": "WOMEN-Graphic_Tees-id_00000769-01_7_additional.jpg",
     "name": "Women's Minimalist The Beatles Line Art Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00000769-01_7_additional.jpg",
     "price": 32.50,
@@ -24,7 +24,7 @@ export const TEE_COLLECTION : Product[] = [
       " Pair it with your favorite skinny jeans, casual sneakers, or a light jacket for an effortlessly cool, laid-back look."
   },
   {
-    "id": "WOMEN-Graphic_Tees-id_00000796-01_7_additional",
+    "id": "WOMEN-Graphic_Tees-id_00000796-01_7_additional.jpg",
     "name": "Women's Pop Art \"Please Donut\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00000796-01_7_additional.jpg",
     "price": 27.99,
@@ -35,7 +35,7 @@ export const TEE_COLLECTION : Product[] = [
       " Pair it with relaxed jeans, casual sneakers, or a bomber jacket for a playful and stylish look that's both comfortable and eye-catching."
   },
   {
-    "id": "WOMEN-Graphic_Tees-id_00000801-01_7_additional",
+    "id": "WOMEN-Graphic_Tees-id_00000801-01_7_additional.jpg",
     "name": "Women's Black and White Striped \"Do Not Care\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00000801-01_7_additional.jpg",
     "price": 31.50,
@@ -46,7 +46,7 @@ export const TEE_COLLECTION : Product[] = [
       " Pair it with slim-fit jeans, casual sneakers, and a denim jacket for a relaxed, street-style look that exudes effortless cool."
   },
   {
-    "id": "WOMEN-Graphic_Tees-id_00000917-01_7_additional",
+    "id": "WOMEN-Graphic_Tees-id_00000917-01_7_additional.jpg",
     "name": "Women's Bold \"Trouble Maker\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00000917-01_7_additional.jpg",
     "price": 34.99,
@@ -57,7 +57,7 @@ export const TEE_COLLECTION : Product[] = [
       " Pair it with black jeans, combat boots, or a leather jacket for a bold, edgy look that makes a statement with ease."
   },
   {
-    "id": "WOMEN-Graphic_Tees-id_00001067-01_7_additional",
+    "id": "WOMEN-Graphic_Tees-id_00001067-01_7_additional.jpg",
     "name": "Women's Michael Jackson \"Beat It\" Retro Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00001067-01_7_additional.jpg",
     "price": 30.00,
@@ -68,7 +68,7 @@ export const TEE_COLLECTION : Product[] = [
       " Pair it with distressed jeans, high-top sneakers, or a denim jacket for a bold, retro-inspired look that celebrates the King of Pop."
   },
   {
-    "id": "WOMEN-Graphic_Tees-id_00002364-02_7_additional",
+    "id": "WOMEN-Graphic_Tees-id_00002364-02_7_additional.jpg",
     "name": "Women's Bold \"Dreamer ATH. DEPT.\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00002364-02_7_additional.jpg",
     "price": 33.25,
@@ -79,7 +79,7 @@ export const TEE_COLLECTION : Product[] = [
       " Pair it with jogger pants, white sneakers, and a bomber jacket for a comfortable, sporty style that blends casual ease with athletic flair."
   },
   {
-    "id": "WOMEN-Graphic_Tees-id_00002962-01_7_additional",
+    "id": "WOMEN-Graphic_Tees-id_00002962-01_7_additional.jpg",
     "name": "Women's French-Inspired \"Le meilleur L’étoile du meilleur\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00002962-01_7_additional.jpg",
     "price": 28.75,
@@ -90,7 +90,7 @@ export const TEE_COLLECTION : Product[] = [
       " Pair it with light denim jeans, slip-on sneakers, and a lightweight cardigan or casual jacket for a relaxed yet polished look with a touch of effortless style."
   },
   {
-    "id": "WOMEN-Graphic_Tees-id_00003072-04_7_additional",
+    "id": "WOMEN-Graphic_Tees-id_00003072-04_7_additional.jpg",
     "name": "Women's Minimalist \"No One Is Perfect\" Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00003072-04_7_additional.jpg",
     "price": 29.50,
@@ -101,7 +101,7 @@ export const TEE_COLLECTION : Product[] = [
       " Pair it with dark jeans, loafers, and a casual blazer for a stylish, semi-casual look, or opt for sneakers and chinos for a more relaxed yet polished outfit."
   },
   {
-    "id": "WOMEN-Graphic_Tees-id_00006671-01_7_additional",
+    "id": "WOMEN-Graphic_Tees-id_00006671-01_7_additional.jpg",
     "name": "Women's New York SOHO Urban Graphic Tee",
     "image_name": "WOMEN-Graphic_Tees-id_00006671-01_7_additional.jpg",
     "price": 31.99,

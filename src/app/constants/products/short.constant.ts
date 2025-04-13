@@ -2,7 +2,7 @@ import {Product} from '../../../domain/Product';
 
 export const SHORTS_COLLECTION : Product[] = [
   {
-    "id": "WOMEN-Shorts-id_00000081-01_1_front",
+    "id": "WOMEN-Shorts-id_00000081-01_1_front.jpg",
     "name": "Women's Casual High-Waist Shorts",
     "image_name": "WOMEN-Shorts-id_00000081-01_1_front.jpg",
     "price": 39.99,
@@ -13,7 +13,7 @@ export const SHORTS_COLLECTION : Product[] = [
       " Pair these jeans with a casual tee or oversized sweater for an easygoing look, or dress them up with a button-down shirt and ankle boots for a more polished, elevated style. A denim jacket or a light blazer would add a layered, stylish touch. For a laid-back, weekend vibe, add sneakers and a simple hoodie."
   },
   {
-    "id": "WOMEN-Shorts-id_00000103-02_1_front",
+    "id": "WOMEN-Shorts-id_00000103-02_1_front.jpg",
     "name": "Women's Tailored Linen Shorts",
     "image_name": "WOMEN-Shorts-id_00000103-02_1_front.jpg",
     "price": 44.50,
@@ -24,8 +24,8 @@ export const SHORTS_COLLECTION : Product[] = [
       " Pair these shorts with a tucked-in linen shirt or a lightweight blouse for a chic, breezy look. For a more casual outfit, a simple tank top and sandals will keep things relaxed and stylish. Dress them up with a blazer and heeled sandals for a sophisticated summer evening ensemble. A wide-brimmed hat and sunglasses would complete the look for a day out in the sun."
   },
   {
-    "id": "WOMEN-Shorts-id_00000128-01_1_front",
-    "name": "Women's Short Shorts",
+    "id": "WOMEN-Shorts-id_00000128-01_1_front.jpg",
+    "name": "Women's Mini Shorts",
     "image_name": "WOMEN-Shorts-id_00000128-01_1_front.jpg",
     "price": 34.99,
     "category": "bottoms",
@@ -35,7 +35,7 @@ export const SHORTS_COLLECTION : Product[] = [
       " Pair these shorts with a simple tucked-in tee or a fitted tank top for a casual, effortless style. For a more elevated look, add a structured blazer and sandals. Sneakers and a graphic tee will keep the look relaxed and street-ready, while a flowy blouse can add a touch of femininity for a more chic outfit."
   },
   {
-    "id": "WOMEN-Shorts-id_00000308-01_1_front",
+    "id": "WOMEN-Shorts-id_00000308-01_1_front.jpg",
     "name": "Women's Flower Shorts",
     "image_name": "WOMEN-Shorts-id_00000308-01_1_front.jpg",
     "price": 49.99,
@@ -46,7 +46,7 @@ export const SHORTS_COLLECTION : Product[] = [
       " Pair these shorts with a simple white or pastel-colored blouse for a light, summery vibe. A tucked-in tank top or cropped tee would also highlight the relaxed fit, perfect for a casual day out. For an elevated look, add some strappy sandals or wedges. For a more street-style approach, combine them with a graphic tee and sneakers. A denim jacket or oversized cardigan could add extra flair for cooler evenings."
   },
   {
-    "id": "WOMEN-Shorts-id_00000347-03_1_front",
+    "id": "WOMEN-Shorts-id_00000347-03_1_front.jpg",
     "name": "Women's Striped Blue Shorts",
     "image_name": "WOMEN-Shorts-id_00000347-03_1_front.jpg",
     "price": 54.00,
@@ -57,7 +57,7 @@ export const SHORTS_COLLECTION : Product[] = [
       " Pair these shorts with a white or navy-blue button-down shirt for a chic nautical-inspired look. A casual striped or solid-colored tee can add a relaxed vibe, perfect for a beach day or weekend outing. For footwear, consider espadrilles, sandals, or boat shoes to keep the look cohesive and comfortable. A lightweight cardigan or denim jacket will keep you cozy during cooler evenings."
   },
   {
-    "id": "WOMEN-Shorts-id_00000382-02_1_front",
+    "id": "WOMEN-Shorts-id_00000382-02_1_front.jpg",
     "name": "Women's Jeans Shorts",
     "image_name": "WOMEN-Shorts-id_00000382-02_1_front.jpg",
     "price": 47.50,
@@ -68,7 +68,7 @@ export const SHORTS_COLLECTION : Product[] = [
       " Pair these jeans with a black graphic tee or a simple white shirt to let the ombré fade take center stage. A leather jacket or bomber jacket can add some edge to the look, while sleek sneakers or ankle boots will complement the slim fit perfectly. For a more polished vibe, tuck in a crisp button-down shirt and add a slim belt"
   },
   {
-    "id": "WOMEN-Shorts-id_00000489-05_1_front",
+    "id": "WOMEN-Shorts-id_00000489-05_1_front.jpg",
     "name": "Women's Washed Shorts",
     "image_name": "WOMEN-Shorts-id_00000489-05_1_front.jpg",
     "price": 42.75,
@@ -79,7 +79,7 @@ export const SHORTS_COLLECTION : Product[] = [
       " Pair these jeans with a simple crew-neck tee or a plaid flannel shirt for a laid-back, Americana vibe. Throw on a leather jacket for a touch of edge, or a cozy knit sweater for cooler days. Finish the look with rugged boots or clean white sneakers, depending on the occasion."
   },
   {
-    "id": "WOMEN-Shorts-id_00000625-04_1_front",
+    "id": "WOMEN-Shorts-id_00000625-04_1_front.jpg",
     "name": "Women's Classical Shorts",
     "image_name": "WOMEN-Shorts-id_00000625-04_1_front.jpg",
     "price": 38.99,
@@ -90,7 +90,7 @@ export const SHORTS_COLLECTION : Product[] = [
       " Pair these red shorts with a white button-down shirt or a light denim jacket for a chic, polished look. A simple graphic tee and sneakers will keep it casual, while a linen blouse and strappy sandals can elevate the outfit for brunch or a summer evening out. Add a stylish hat or sunglasses to complete the warm-weather look."
   },
   {
-    "id": "WOMEN-Shorts-id_00000869-02_1_front",
+    "id": "WOMEN-Shorts-id_00000869-02_1_front.jpg",
     "name": "Women's White Print Shorts",
     "image_name": "WOMEN-Shorts-id_00000869-02_1_front.jpg",
     "price": 45.50,
@@ -101,7 +101,7 @@ export const SHORTS_COLLECTION : Product[] = [
       " Pair these black floral shorts with a tucked-in white blouse for an elegant yet casual look, or with a simple cropped tee for a laid-back, playful vibe. For a more elevated outfit, team them with a fitted blazer and strappy heels. Complete your ensemble with delicate jewelry and a stylish pair of sunglasses for a sophisticated touch."
   },
   {
-    "id": "WOMEN-Shorts-id_00000885-01_1_front",
+    "id": "WOMEN-Shorts-id_00000885-01_1_front.jpg",
     "name": "Women's Multicolor stripped Shorts",
     "image_name": "WOMEN-Shorts-id_00000885-01_1_front.jpg",
     "price": 50.00,

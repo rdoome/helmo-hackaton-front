@@ -2,7 +2,7 @@ import {Product} from '../../../domain/Product';
 
 export const DRESSES_COLLECTION : Product[] = [
   {
-    "id": "WOMEN-Dresses-id_00000002-02_1_front",
+    "id": "WOMEN-Dresses-id_00000002-02_1_front.jpg",
     "name": "Women's Black with Pink Flowers Dress",
     "image_name": "WOMEN-Dresses-id_00000002-02_1_front.jpg",
     "price": 89.99,
@@ -12,7 +12,7 @@ export const DRESSES_COLLECTION : Product[] = [
     "description": "This elegant black dress features delicate pink floral detailing, creating a striking contrast that’s both feminine and timeless. The dark base ensures versatility, while the soft pink blossoms add a romantic, fresh touch—perfect for both daytime charm and evening sophistication. The fit is tailored yet comfortable, making it a flattering choice for various occasions."
   },
   {
-    "id": "WOMEN-Dresses-id_00000009-02_1_front",
+    "id": "WOMEN-Dresses-id_00000009-02_1_front.jpg",
     "name": "Women's Motifs Dress",
     "image_name": "WOMEN-Dresses-id_00000009-02_1_front.jpg",
     "price": 109.50,
@@ -22,9 +22,9 @@ export const DRESSES_COLLECTION : Product[] = [
     "description": "This fresh white dress is adorned with bold red motifs, creating a vibrant yet timeless look. The crisp white base keeps the design clean and versatile, while the red accents add a playful, eye-catching pop—perfect for everything from summer outings to evening events. The silhouette is effortlessly chic, offering a flattering fit that balances elegance with a touch of spirited charm."
   },
   {
-    "id": "WOMEN-Dresses-id_00000021-05_1_front",
+    "id": "WOMEN-Dresses-id_00000021-04_1_front.jpg",
     "name": "Women's Maxi Wrap Dress",
-    "image_name": "WOMEN-Dresses-id_00000021-05_1_front.jpg",
+    "image_name": "WOMEN-Dresses-id_00000021-04_1_front.jpg",
     "price": 119.00,
     "category": "dresses",
     "sub_category": "wrap dress",
@@ -32,7 +32,7 @@ export const DRESSES_COLLECTION : Product[] = [
     "description": "This cream white maxi wrap dress embodies effortless elegance with its fluid, cascading silhouette, beautifully defined by a self-tie waist. Crafted from a softly textured, medium-weight knit, the fabric drapes luxuriously, creating subtle dimension and movement. Delicate stitching along the wrap closure and artful gathering at the waist highlight its thoughtful craftsmanship. The timeless cream hue exudes understated sophistication, making it a versatile piece that transitions seamlessly from sunlit daytime occasions to refined evening events—always moving as gracefully as the wearer."
   },
   {
-    "id": "WOMEN-Dresses-id_00000021-05_1_front",
+    "id": "WOMEN-Dresses-id_00000021-05_1_front.jpg",
     "name": "Women's Maxi Wrap Dress",
     "image_name": "WOMEN-Dresses-id_00000021-05_1_front.jpg",
     "price": 119.00,
@@ -42,7 +42,7 @@ export const DRESSES_COLLECTION : Product[] = [
     "description": "This dark red maxi wrap dress exudes bold sophistication with its fluid, cascading silhouette, elegantly cinched by a self-tie waist. Cut from a sumptuous, medium-weight knit with a soft texture, the fabric drapes luxuriously, creating depth and movement with every step. Meticulous stitching along the wrap closure and subtle gathering at the waist showcase refined craftsmanship. The rich, wine-inspired hue radiates timeless glamour, effortlessly transitioning from polished daytime ensembles to sultry evening wear—ensuring the wearer commands attention with understated allure."
   },
   {
-    "id": "WOMEN-Dresses-id_00000027-01_1_front",
+    "id": "WOMEN-Dresses-id_00000027-01_1_front.jpg",
     "name": "Women's Fit-and-Flare Dress",
     "image_name": "WOMEN-Dresses-id_00000027-01_1_front.jpg",
     "price": 95.00,

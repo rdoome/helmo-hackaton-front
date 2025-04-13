@@ -2,7 +2,7 @@ import {Product} from '../../../domain/Product';
 
 export const SKIRT_COLLECTION : Product[] = [
   {
-    "id": "WOMEN-Skirts-id_00001699-04_2_side",
+    "id": "WOMEN-Skirts-id_00001699-04_2_side.jpg",
     "name": "Women's A-Line Red Mini Skirt",
     "image_name": "WOMEN-Skirts-id_00001699-04_2_side.jpg",
     "price": 69.99,
@@ -13,7 +13,7 @@ export const SKIRT_COLLECTION : Product[] = [
       " Pair it with a fitted black turtleneck, ankle boots, and a structured leather jacket for a look that exudes bold sophistication. Alternatively, a simple white blouse and metallic accessories can add a touch of elegance for an elevated evening style."
   },
   {
-    "id": "WOMEN-Skirts-id_00001771-02_4_full",
+    "id": "WOMEN-Skirts-id_00001771-02_4_full.jpg",
     "name": "Women's Flared Multi layer Skirt",
     "image_name": "WOMEN-Skirts-id_00001771-02_4_full.jpg",
     "price": 79.50,
@@ -24,7 +24,7 @@ export const SKIRT_COLLECTION : Product[] = [
       " Pair it with a soft pastel blouse, nude heels, and a delicate clutch for a refined, feminine look. For a more elevated style, a satin camisole and a cropped blazer can add sophistication, making it perfect for formal dinners or cocktail gatherings."
   },
   {
-    "id": "WOMEN-Skirts-id_00002296-01_7_additional",
+    "id": "WOMEN-Skirts-id_00002296-01_7_additional.jpg",
     "name": "Women's Pleated Mini Skirt",
     "image_name": "WOMEN-Skirts-id_00002296-01_7_additional.jpg",
     "price": 59.00,
@@ -35,7 +35,7 @@ export const SKIRT_COLLECTION : Product[] = [
       " Pair it with a tucked-in blouse, ankle boots, and a denim jacket for a chic, casual look, or dress it up with a fitted top and heels for a more refined, evening-ready outfit."
   },
   {
-    "id": "WOMEN-Skirts-id_00003213-02_1_front",
+    "id": "WOMEN-Skirts-id_00003213-02_1_front.jpg",
     "name": "Women's Maxi Skirt",
     "image_name": "WOMEN-Skirts-id_00003213-02_1_front.jpg",
     "price": 85.00,
@@ -46,7 +46,7 @@ export const SKIRT_COLLECTION : Product[] = [
       " Pair it with a sleek silk blouse, strappy heels, and delicate jewelry for a refined, evening-ready look. For a sophisticated office ensemble, combine it with a tucked-in blouse, a tailored blazer, and classic pumps."
   },
   {
-    "id": "WOMEN-Skirts-id_00004314-03_7_additional",
+    "id": "WOMEN-Skirts-id_00004314-03_7_additional.jpg",
     "name": "Women's Black Mini Skirt",
     "image_name": "WOMEN-Skirts-id_00004314-03_7_additional.jpg",
     "price": 70.25,
@@ -57,7 +57,7 @@ export const SKIRT_COLLECTION : Product[] = [
       " Pair it with a fitted blouse, pointed-toe heels, and a structured blazer for a chic office look, or dress it up with a silk camisole, statement earrings, and strappy heels for an elegant evening ensemble. For a more relaxed, casual outfit, combine it with a tucked-in graphic tee and ankle boots."
   },
   {
-    "id": "WOMEN-Skirts-id_00004314-04_2_side",
+    "id": "WOMEN-Skirts-id_00004314-04_2_side.jpg",
     "name": "Women's Wool Skirt",
     "image_name": "WOMEN-Skirts-id_00004314-04_2_side.jpg",
     "price": 75.00,
@@ -68,7 +68,7 @@ export const SKIRT_COLLECTION : Product[] = [
       " Pair it with a tucked-in turtleneck sweater, ankle boots, and a tailored blazer for a sophisticated office look, or opt for a silk blouse, delicate heels, and statement jewelry for a more elevated evening outfit. For a more casual vibe, combine it with a fitted knit top and loafers for a chic yet comfortable day look."
   },
   {
-    "id": "WOMEN-Skirts-id_00004482-02_7_additional",
+    "id": "WOMEN-Skirts-id_00004482-02_7_additional.jpg",
     "name": "Women's Short Skirt",
     "image_name": "WOMEN-Skirts-id_00004482-02_7_additional.jpg",
     "price": 68.50,
@@ -79,7 +79,7 @@ export const SKIRT_COLLECTION : Product[] = [
       " Pair it with a tucked-in graphic tee, chunky boots, and a leather jacket for a bold, street-inspired daytime look. For a night out, dress it up with a silky blouse, heeled sandals, and a statement clutch for a chic, polished ensemble."
   },
   {
-    "id": "WOMEN-Skirts-id_00004719-11_3_back",
+    "id": "WOMEN-Skirts-id_00004719-11_3_back.jpg",
     "name": "Women's White Pleated Short Skirt",
     "image_name": "WOMEN-Skirts-id_00004719-11_3_back.jpg",
     "price": 80.00,
@@ -90,7 +90,7 @@ export const SKIRT_COLLECTION : Product[] = [
       " Pair it with a fitted crop top, sandals, and a floppy hat for a breezy daytime look, or dress it up with a satin blouse, heeled mules, and a clutch for an elegant evening ensemble. A denim jacket or light cardigan would also complement it for cooler evenings."
   },
   {
-    "id": "WOMEN-Skirts-id_00004719-13_7_additional",
+    "id": "WOMEN-Skirts-id_00004719-13_7_additional.jpg",
     "name": "Women's Red Pleated Short Skirt",
     "image_name": "WOMEN-Skirts-id_00004719-13_7_additional.jpg",
     "price": 88.00,
@@ -101,7 +101,7 @@ export const SKIRT_COLLECTION : Product[] = [
       " Pair it with a fitted blouse and a tailored blazer for a powerful office look, or dress it up with a silky camisole, strappy heels, and statement jewelry for an elegant evening out. For a more casual take, a tucked-in graphic tee and ankle boots would balance the boldness of the skirt with laid-back flair."
   },
   {
-    "id": "WOMEN-Skirts-id_00007244-08_7_additional",
+    "id": "WOMEN-Skirts-id_00007244-08_7_additional.jpg",
     "name": "Women's Floral print mini Skirt",
     "image_name": "WOMEN-Skirts-id_00007244-08_7_additional.jpg",
     "price": 72.75,

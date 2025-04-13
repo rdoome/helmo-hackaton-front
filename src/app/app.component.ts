@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { AiSidebarComponent } from './components/ai-sidebar/ai-sidebar.component';
 import { HeaderComponent } from "./components/page_sections/header/header.component";
+import { ChatComponent } from "./components/chat/chat.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, AiSidebarComponent, HeaderComponent],
+  imports: [RouterOutlet, HeaderComponent, ChatComponent],
   templateUrl: './app.component.html',
 })
 export class AppComponent {}
