@@ -1,31 +1,32 @@
-
 <div class="chat-container">
-    <div class="chat-messages">
-      <div *ngFor="let message of messages" 
-           [ngClass]="{'user-message': message.role === 'user', 'ai-message': message.role === 'model'}">
-        <div class="message-content">
-          <strong>{{ message.role === 'user' ? 'You' : 'AI' }}:</strong>
-          <p>{{ message.parts[0].text }}</p>
-        </div>
-      </div>
-      
-      <div *ngIf="isLoading" class="ai-message loading">
-        <div class="typing-indicator">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+  <div class="chat-messages">
+    <div *ngFor="let message of messages" 
+         [ngClass]="{'user-message': message.role === 'user', 'ai-message': message.role === 'model'}">
+      <div class="message-content">
+        <strong>{{ message.role === 'user' ? 'You' : 'AI' }}:</strong>
+        <!-- Ici, pour les messages de l'AI, on injecte le HTML pour permettre l'affichage d'images -->
+        <div *ngIf="message.role === 'model'" [innerHTML]="sanitize(message.parts[0].text)"></div>
+        <!-- Pour les messages utilisateur, on affiche le texte en toute sécurité -->
+        <p *ngIf="message.role !== 'model'">{{ message.parts[0].text }}</p>
       </div>
     </div>
     
-    <div class="chat-input">
-      <input 
-        type="text" 
-        [(ngModel)]="userInput" 
-        placeholder="Type your message..." 
-        (keyup.enter)="sendMessage()"
-        [disabled]="isLoading"
-      >
-      <button (click)="sendMessage()" [disabled]="isLoading">Send</button>
+    <div *ngIf="isLoading" class="ai-message loading">
+      <div class="typing-indicator">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   </div>
+  
+  <div class="chat-input">
+    <input 
+      type="text" 
+      [(ngModel)]="userInput" 
+      placeholder="Type your message..." 
+      (keyup.enter)="sendMessage()"
+      [disabled]="isLoading">
+    <button (click)="sendMessage()" [disabled]="isLoading">Send</button>
+  </div>
+</div>
