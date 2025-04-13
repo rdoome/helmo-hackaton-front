@@ -4,7 +4,7 @@ import { ChatMessage, GeminiService } from '../../services/gemini.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { initialPrompt } from '../../constants/initial-prompt';
-import { data } from '../../constants/data';
+import { PRODUCTS } from '../../constants/data';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { processText } from '../../utils/image-extractor';
 
@@ -21,7 +21,7 @@ export class ChatComponent implements OnInit {
   geminiService: GeminiService = inject(GeminiService);
 
   // System prompt for Gemini
-  systemPrompt = initialPrompt.concat(data);
+  systemPrompt = initialPrompt.concat(JSON.stringify(PRODUCTS));
 
   constructor(private sanitizer: DomSanitizer) {}
 
@@ -47,7 +47,7 @@ export class ChatComponent implements OnInit {
     // First message from the AI
     const initialMessage: ChatMessage = {
       role: 'model',
-      parts: [{ text: 'Bonjour, je suis votre assistant Style, votre conseiller en mode virtuel dédié à sublimer votre élégance, en quoi puis-je vous être utile? ' }]
+      parts: [{ text: `Bonjour, je suis votre assistant Style, votre conseiller en mode virtuel dédié à sublimer votre élégance, n'hésitez pas à me consulter pour obtenir conseil.` }]
     };
 
     // Add initial message to chat (this will be replaced with the actual response)

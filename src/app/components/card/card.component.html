@@ -3,8 +3,9 @@
   <div *ngIf="displayAddToCart(); else onlyImage" class="d-flex gap-3">
     <img 
       [src]="imageUrl()" 
-      alt="Image" 
+      alt="Image"   
       class="card-image card-img-top object-fit-cover hover-effect" 
+      (click)="addToCart()"
     />
     <div style="margin-top: 10px;">
       <fa-icon 

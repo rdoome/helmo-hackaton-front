@@ -2,7 +2,7 @@ import {Product} from '../../../domain/Product';
 
 export const PANTS_COLLECTION : Product[] = [
   {
-    "id": "WOMEN-Leggings-id_00001032-04_2_side",
+    "id": "WOMEN-Leggings-id_00001032-04_2_side.jpg",
     "name": "Women's High-Waist Performance Leggings",
     "image_name": "WOMEN-Leggings-id_00001032-04_2_side.jpg",
     "price": 59.99,
@@ -13,7 +13,7 @@ export const PANTS_COLLECTION : Product[] = [
       " For a complete look, pair these leggings with a fitted sports bra or a cropped workout top for a sleek athletic appearance. For a more casual outfit, a loose, oversized t-shirt or sweatshirt will add a relaxed vibe. Finish the look with a pair of stylish sneakers for a sporty edge, or opt for comfortable slip-on shoes for a laid-back feel. Add a lightweight jacket or hoodie for layering if needed. "
   },
   {
-    "id": "WOMEN-Leggings-id_00001248-01_2_side",
+    "id": "WOMEN-Leggings-id_00001248-01_2_side.jpg",
     "name": "Women's Sculpting Mid-Rise Leggings",
     "image_name": "WOMEN-Leggings-id_00001248-01_2_side.jpg",
     "price": 54.50,
@@ -24,7 +24,7 @@ export const PANTS_COLLECTION : Product[] = [
       " For a stylish active look, pair these leggings with a fitted sports bra or a cropped tank top. If you're going for a more casual outfit, throw on an oversized t-shirt or a loose-fitting hoodie for a laid-back vibe. Complete the look with a pair of comfy sneakers or slip-on shoes. If you're heading out for errands or meeting friends, a denim jacket or lightweight cardigan will add a touch of style without compromising comfort."
   },
   {
-    "id": "WOMEN-Leggings-id_00005741-01_2_side",
+    "id": "WOMEN-Leggings-id_00005741-01_2_side.jpg",
     "name": "Women's Stretchy Active Leggings",
     "image_name": "WOMEN-Leggings-id_00005741-01_2_side.jpg",
     "price": 49.99,
@@ -35,7 +35,7 @@ export const PANTS_COLLECTION : Product[] = [
       " For a functional yet stylish look, pair these leggings with a matching navy sports bra or a simple, breathable tank top for workouts. For a casual outing, team them with a oversized hoodie or a fitted long-sleeve tee for a relaxed vibe. Complete the look with comfortable sneakers or slip-on shoes for a chic, on-the-go ensemble."
   },
   {
-    "id": "WOMEN-Pants-id_00001426-01_2_side",
+    "id": "WOMEN-Pants-id_00001426-01_2_side.jpg",
     "name": "Women's Tailored Ankle Pants",
     "image_name": "WOMEN-Pants-id_00001426-01_2_side.jpg",
     "price": 89.99,
@@ -46,7 +46,7 @@ export const PANTS_COLLECTION : Product[] = [
       " Pair these ankle pants with a fitted blouse or a crisp button-up shirt for a polished, office-ready look. For evening wear, elevate the outfit with a sleek, tucked-in silk top or a statement blouse, and finish with elegant heels or ankle boots. You can also add a structured blazer for an extra layer of sophistication."
   },
   {
-    "id": "WOMEN-Pants-id_00001731-02_2_side",
+    "id": "WOMEN-Pants-id_00001731-02_2_side.jpg",
     "name": "Women's High-Waisted Leggings",
     "image_name": "WOMEN-Pants-id_00001731-02_2_side.jpg",
     "price": 79.50,
@@ -57,7 +57,7 @@ export const PANTS_COLLECTION : Product[] = [
       " Pair these leggings with a tucked-in blouse or a tailored blazer for a polished, professional look. For casual outings, style them with a relaxed, oversized sweater or a simple t-shirt and sneakers for a comfortable yet chic vibe. Add accessories like a statement belt or a crossbody bag to enhance the outfit’s versatility."
   },
   {
-    "id": "WOMEN-Pants-id_00001734-03_2_side",
+    "id": "WOMEN-Pants-id_00001734-03_2_side.jpg",
     "name": "Women's Relaxed Fit Tapered Pants",
     "image_name": "WOMEN-Pants-id_00001734-03_2_side.jpg",
     "price": 84.00,
@@ -68,7 +68,7 @@ export const PANTS_COLLECTION : Product[] = [
       " Pair these pants with a crisp button-down shirt for a business-casual look, or opt for a relaxed-fit sweater for a laid-back vibe. Complete the outfit with loafers or ankle boots, and add a simple watch or leather belt to elevate the overall style. For a more semi-formal approach, a tailored blazer or jacket would pair nicely."
   },
   {
-    "id": "WOMEN-Pants-id_00005000-09_2_side",
+    "id": "WOMEN-Pants-id_00005000-09_2_side.jpg",
     "name": "Women's Wide-Leg Formal Trousers",
     "image_name": "WOMEN-Pants-id_00005000-09_2_side.jpg",
     "price": 99.99,
@@ -79,7 +79,7 @@ export const PANTS_COLLECTION : Product[] = [
       " Pair these trousers with a tailored blouse or a crisp button-down shirt for a polished office look, or style them with a sleek turtleneck for a sophisticated evening outfit. High heels or pointed-toe flats will enhance the long, flowing lines, while a statement belt or simple jewelry can add an elegant touch. For colder weather, a tailored coat or trench would complement the outfit beautifully."
   },
   {
-    "id": "WOMEN-Pants-id_00005526-01_2_side",
+    "id": "WOMEN-Pants-id_00005526-01_2_side.jpg",
     "name": "Women's Stylish Culottes",
     "image_name": "WOMEN-Pants-id_00005526-01_2_side.jpg",
     "price": 79.00,
@@ -90,7 +90,7 @@ export const PANTS_COLLECTION : Product[] = [
       " Pair these culottes with a fitted blouse or a sleek, tucked-in sweater for a polished office look. A tailored blazer can elevate the outfit for more formal settings. For a more casual yet stylish appearance, try them with a loose-fitting top or a chic cropped shirt. Finish the look with ballet flats, block heels, or ankle boots, depending on the occasion."
   },
   {
-    "id": "WOMEN-Pants-id_00005554-02_2_side",
+    "id": "WOMEN-Pants-id_00005554-02_2_side.jpg",
     "name": "Women's High-Rise Straight Pants",
     "image_name": "WOMEN-Pants-id_00005554-02_2_side.jpg",
     "price": 84.50,
@@ -101,7 +101,7 @@ export const PANTS_COLLECTION : Product[] = [
       " Pair these pants with a crisp button-down shirt or a smart blouse for a professional look, or a relaxed knit sweater for a more casual feel. A blazer or lightweight jacket can elevate the outfit for more formal settings. For footwear, opt for classic loafers, heeled mules, or sleek ankle boots to complete the ensemble with sophistication."
   },
   {
-    "id": "WOMEN-Pants-id_00006430-02_7_additional",
+    "id": "WOMEN-Pants-id_00006430-02_7_additional.jpg",
     "name": "Women's Relaxed High-Waist Joggings",
     "image_name": "WOMEN-Pants-id_00006430-02_7_additional.jpg",
     "price": 89.00,

@@ -50,5 +50,4 @@ export class ProductsComponent implements OnInit {
     this.PRODUCT_COLLECTION = getProductCollectionByType(key)
   }
 
-  // protected readonly PRODUCT_COLLECTION = CARDIGAN_COLLECTION;
 }

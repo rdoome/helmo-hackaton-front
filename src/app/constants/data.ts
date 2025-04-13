@@ -1,4 +1,7 @@
-export const data =  `{
+import { Product } from "../../domain/Product";
+
+export const PRODUCTS : Product[] = [
+  {
     "id": "WOMEN-Blouses_Shirts-id_00000380-04_1_front.jpg",
     "name": "Elegant Blouse",
     "image_name": "WOMEN-Blouses_Shirts-id_00000380-04_1_front.jpg",
@@ -989,4 +992,4 @@ export const data =  `{
     "description": "This contemporary graphic tee is crafted from a soft, durable cotton blend with a relaxed, slightly oversized fit. Set against a dark blue background, the design features bold white text reading “NEW YORK SOHO,” offering a clean, urban aesthetic. Precise digital printing ensures sharp contrast and lasting quality, while well-finished flat-lock seams and a classic crew neck enhance both comfort and durability. Ideal for everyday wear, this piece brings a modern metropolitan vibe to any casual outfit."
   }
 ]
-`
+

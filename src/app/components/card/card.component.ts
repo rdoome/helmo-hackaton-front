@@ -3,8 +3,8 @@ import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { CartService } from '../../store/cart/cart.store';
-import { CARDIGAN_COLLECTION } from '../../constants/products/cardigan.constant';
 import { CommonModule } from '@angular/common';
+import { PRODUCTS } from '../../constants/data';
 
 @Component({
   selector: 'app-card',
@@ -19,7 +19,7 @@ export class CardComponent {
   displayAddToCart = input<boolean>(true);
   title = input.required<string>();
   private cartService = inject(CartService);
-  products = CARDIGAN_COLLECTION;
+  products = PRODUCTS;
 
   faCartPlus = faCartPlus;
 
