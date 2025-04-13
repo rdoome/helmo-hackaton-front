@@ -1,37 +1,46 @@
 <div class="bg-green-500 hover:cursor-pointer rounded-3xl overflow-hidden w-80 p-4 group relative isolate">
-  
-  <div *ngIf="displayAddToCart(); else onlyImage" class="d-flex gap-3">
-    <img 
-      [src]="imageUrl()" 
-      alt="Image"   
-      class="card-image card-img-top object-fit-cover hover-effect" 
-      (click)="addToCart()"
+
+  <div *ngIf="actionButton()!=''" class="d-flex gap-3">
+    <img
+      [src]="imageUrl()"
+      alt="Image"
+      class="card-image card-img-top object-fit-cover hover-effect"
     />
-    <div style="margin-top: 10px;">
-      <fa-icon 
-        [icon]="faCartPlus" 
-        matTooltip="Add to cart" 
-        matTooltipPosition="right" 
-        class="text-gray-400" 
+    <div *ngIf="actionButton()==='addToCart'" style="margin-top: 10px;">
+      <fa-icon
+        [icon]="faCartPlus"
+        matTooltip="Add to cart"
+        matTooltipPosition="right"
+        class="text-gray-400"
         (click)="addToCart()">
       </fa-icon>
     </div>
+
+    <div *ngIf="actionButton()==='removeFromCart'" style="margin-top: 10px;">
+      <fa-icon
+        [icon]="faCircleXMark"
+        matTooltip="Remove to cart"
+        class="text-gray-400 red"
+        (click)="removeFromCart()">
+      </fa-icon>
+    </div>
+
   </div>
-  
+
   <ng-template #onlyImage>
-    <img 
-      [src]="imageUrl()" 
-      alt="Image" 
-      class="card-image card-img-top object-fit-cover hover-effect" 
+    <img
+      [src]="imageUrl()"
+      alt="Image"
+      class="card-image card-img-top object-fit-cover hover-effect"
     />
   </ng-template>
 
-  
+
     <div class="pt-3 d-flex  flex-column align-items-start">
         <div class="bg-purple-100 w-fit px-2 rounded-md">
           <span class="text-xs uppercase text-purple-500">{{ category() }}</span>
         </div>
-  
+
         <h3 class="mt-2 h-12 line-clamp-2">{{ title() }}</h3>
     </div>
 </div>

@@ -8,7 +8,7 @@ export class CartService {
 
   updateCart(updatedProduct: Product[]) {
     this.sessionStore.update({ products: updatedProduct });
-  }  
+  }
 
   addProductToCart(product: Product) {
     const currentProducts = this.sessionStore.getValue().products;
@@ -20,7 +20,7 @@ export class CartService {
     const updatedProducts = currentProducts.filter((p) => p.id !== product.id);
     this.sessionStore.update({ products: updatedProducts });
   }
-  
+
   clearCart() {
     this.sessionStore.update({ products: [] });
   }

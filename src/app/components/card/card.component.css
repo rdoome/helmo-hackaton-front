@@ -10,12 +10,12 @@
     cursor: pointer;
     will-change: transform;
   }
-  
+
   .hover-effect:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   }
-  
+
   fa-icon.text-gray-400 {
     /* Initial style: light border, rounded icon, and smooth transition */
     border: 2px solid darkgray;
@@ -23,7 +23,7 @@
     padding: 9px 9px 8px 8px;
     transition: border-color 0.3s ease, color 0.3s ease;
   }
-  
+
   fa-icon.text-gray-400:hover {
     /* On hover: darken the border and icon color */
     border-color: gray;
@@ -32,4 +32,6 @@
   }
 
 
-  
+  fa-icon.red {
+    color: #ff0000;
+  }
