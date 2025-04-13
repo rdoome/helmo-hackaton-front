@@ -7,6 +7,7 @@ import { initialPrompt } from '../../constants/initial-prompt';
 import { PRODUCTS } from '../../constants/data';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { processText } from '../../utils/image-extractor';
+import {EventBusService} from '../../services/eventBus.service';
 
 @Component({
   selector: 'app-chat',
@@ -23,7 +24,7 @@ export class ChatComponent implements OnInit {
   // System prompt for Gemini
   systemPrompt = initialPrompt.concat(JSON.stringify(PRODUCTS));
 
-  constructor(private sanitizer: DomSanitizer) {}
+  constructor(private sanitizer: DomSanitizer, private eventBus: EventBusService) {}
 
   sanitize(html: string): SafeHtml {
     return this.sanitizer.bypassSecurityTrustHtml(html);
@@ -32,7 +33,13 @@ export class ChatComponent implements OnInit {
   ngOnInit() {
     // Send initial message when component loads
     this.sendInitialMessage();
+    this.eventBus.on('NEW_MESSAGE')
+      .subscribe(data => {
+        this.sendMessage(data);
+      });
   }
+
+
 
   toggleDimension()
   {
@@ -47,7 +54,7 @@ export class ChatComponent implements OnInit {
     // First message from the AI
     const initialMessage: ChatMessage = {
       role: 'model',
-      parts: [{ text: `Bonjour, je suis votre assistant Style, votre conseiller en mode virtuel dédié à sublimer votre élégance, n'hésitez pas à me consulter pour obtenir conseil.` }]
+      parts: [{ text: `Hello, I am your Style assistant, your virtual fashion advisor dedicated to enhancing your elegance. Feel free to consult me for advice.` }]
     };
 
     // Add initial message to chat (this will be replaced with the actual response)
@@ -72,15 +79,15 @@ export class ChatComponent implements OnInit {
     });
   }
 
-  sendMessage() {
-    if (!this.userInput.trim() || this.isLoading) {
+  sendMessage(message? : string) {
+    if (this.isLoading) {
       return;
     }
 
     // Add user message to chat
     const userMessage: ChatMessage = {
       role: 'user',
-      parts: [{ text: this.userInput }]
+      parts: [{ text: message ?? this.userInput.trim() }]
     };
     this.messages.push(userMessage);
 
@@ -98,16 +105,16 @@ export class ChatComponent implements OnInit {
 
         const { updatedText, images }: { updatedText: string; images: string[] } =
         processText(response.candidates[0].content.parts[0].text);
-      
+
         const imageTags = images.map((id, index) => {
           return `<div style="margin-right: 15px; margin-y:20px; display:block"><img src="../../../../images/products/${id}" width="100px" height="auto" alt="Image ${index + 1}"></div>`;
         });
-        
+
         const finalText = updatedText.replace(/%\*_([0-9]+)%\*_/g, (match, numberStr) => {
           const index = parseInt(numberStr, 10);
           return index >= 0 && index < imageTags.length ? imageTags[index] : "";
         });
-        
+
         response.candidates[0].content.parts[0].text = finalText;
 
         if (response.candidates && response.candidates.length > 0) {

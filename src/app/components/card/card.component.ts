@@ -5,6 +5,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { CartService } from '../../store/cart/cart.store';
 import { CommonModule } from '@angular/common';
 import { PRODUCTS } from '../../constants/data';
+import {EventBusService} from '../../services/eventBus.service';
+
 
 @Component({
   selector: 'app-card',
@@ -21,6 +23,8 @@ export class CardComponent {
   private cartService = inject(CartService);
   products = PRODUCTS;
 
+  constructor(private eventBus: EventBusService) {}
+
   faCartPlus = faCartPlus;
   faCircleXMark = faCircleXmark;
 
@@ -28,6 +32,7 @@ export class CardComponent {
     const product = this.products.find(product => product.id === this.id());
     if (product) {
       this.cartService.addProductToCart(product);
+      this.eventBus.emit('NEW_MESSAGE', "I just added " + product.name + " to my cart. Could you recommend an item that matches it?");
     }
   }
 
