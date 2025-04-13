@@ -31,7 +31,7 @@ export class CardComponent {
     const product = this.products.find(product => product.id === this.id());
     if (product) {
       this.cartService.addProductToCart(product);
-      this.eventBus.emit('NEW_MESSAGE', "Je viens d'ajouter" + product.name + "(" + product.id + ")" + " a mon panier, peux-tu me conseiller un article s'accordant avec ce dernier.");
+      this.eventBus.emit('NEW_MESSAGE', "Je viens d'ajouter" + product.name + " à mon panier, peux-tu me conseiller un article s'accordant avec ce dernier.");
     }
   }
 }

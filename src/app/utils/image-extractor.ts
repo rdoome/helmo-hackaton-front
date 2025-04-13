@@ -20,9 +20,10 @@ export function processText(input: string): { updatedText: string; images: strin
     const updatedText = input.replace(regex, (match, capturedGroup) => {
       // capturedGroup contient l'identifiant d'image (par exemple : WOMEN-Blouses_Shirts-id_00000380-04_1_front.jpg)
       images.push(capturedGroup);
+      const res = `%*_${counter}%*_`
       counter++;
       // Retourne la nouvelle chaîne de substitution avec l'index (exemple : %*_1%*_)
-      return `%*_${counter}%*_`;
+      return res;
     });
     
     return { updatedText, images };
